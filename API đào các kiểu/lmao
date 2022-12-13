@@ -1,0 +1,18 @@
+all_stock_general_rating = general_rating('AAA')
+all_stock_general_rating['ticker'] = 'AAA'
+all_stock_general_rating = all_stock_general_rating.set_index(['ticker'])
+all_stock_general_rating.drop(all_stock_general_rating.index, inplace=True)
+# all_stock_general_rating.head()
+
+for ticker in tickers:
+    try:
+        single_stock_general_rating =  general_rating(ticker)
+        single_stock_general_rating['ticker'] = ticker
+        single_stock_general_rating = single_stock_general_rating.set_index(['ticker'])
+        
+        all_stock_general_rating = pd.concat([all_stock_general_rating, single_stock_general_rating])
+    except Exception: 
+        pass    
+
+
+all_stock_general_rating.to_csv('/home/jazzdung/Project III/Tổng hợp/General Rating.csv', sep=',', encoding='utf-8')

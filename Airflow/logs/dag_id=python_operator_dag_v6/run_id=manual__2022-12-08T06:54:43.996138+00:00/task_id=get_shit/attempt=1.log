@@ -1,0 +1,23 @@
+[2022-12-08T06:54:46.389+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v6.get_shit manual__2022-12-08T06:54:43.996138+00:00 [queued]>
+[2022-12-08T06:54:46.398+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v6.get_shit manual__2022-12-08T06:54:43.996138+00:00 [queued]>
+[2022-12-08T06:54:46.398+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08T06:54:46.398+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-08T06:54:46.398+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-08T06:54:46.742+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_shit> on 2022-12-08 06:54:43.996138+00:00
+[2022-12-08T06:54:46.746+0000] {standard_task_runner.py:55} INFO - Started process 11427 to run task
+[2022-12-08T06:54:46.749+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python_operator_dag_v6', 'get_shit', 'manual__2022-12-08T06:54:43.996138+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/python_operator_dag.py', '--cfg-path', '/tmp/tmprozu1oaz']
+[2022-12-08T06:54:46.750+0000] {standard_task_runner.py:83} INFO - Job 15: Subtask get_shit
+[2022-12-08T06:54:47.008+0000] {task_command.py:389} INFO - Running <TaskInstance: python_operator_dag_v6.get_shit manual__2022-12-08T06:54:43.996138+00:00 [running]> on host 4f590d7fc3b1
+[2022-12-08T06:54:47.167+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=python_operator_dag_v6
+AIRFLOW_CTX_TASK_ID=get_shit
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-08T06:54:43.996138+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-08T06:54:43.996138+00:00
+[2022-12-08T06:54:47.292+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-08T06:54:47.300+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=python_operator_dag_v6, task_id=get_shit, execution_date=20221208T065443, start_date=20221208T065446, end_date=20221208T065447
+[2022-12-08T06:54:47.401+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-08T06:54:47.428+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

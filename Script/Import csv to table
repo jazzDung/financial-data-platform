@@ -1,0 +1,36 @@
+\copy listing_companies
+FROM '/home/jazzdung/Project III/Tổng hợp/Listing Companies.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy stock_history
+FROM '/home/jazzdung/Project III/Tổng hợp/Stock History.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy income_statement
+FROM '/home/jazzdung/Project III/Tổng hợp/Income Statement.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy balance_sheet
+FROM '/home/jazzdung/Project III/Tổng hợp/Balance Sheet.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy cash_flow
+FROM '/home/jazzdung/Project III/Tổng hợp/Cash Flow.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy financial_ratio
+FROM '/home/jazzdung/Project III/Tổng hợp/Financial Ratio.csv'
+DELIMITER ','
+CSV HEADER;
+
+\copy stock_intraday_transaction
+FROM '/home/jazzdung/Project III/Tổng hợp/Stock Intraday Transaction.csv'
+DELIMITER ','
+CSV HEADER;
+
+\s import

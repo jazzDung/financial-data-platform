@@ -1,0 +1,32 @@
+[2022-12-07T16:36:42.157+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v3.greet manual__2022-12-07T16:36:40.909588+00:00 [queued]>
+[2022-12-07T16:36:42.169+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v3.greet manual__2022-12-07T16:36:40.909588+00:00 [queued]>
+[2022-12-07T16:36:42.169+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-07T16:36:42.170+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-07T16:36:42.170+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-07T16:36:42.316+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): greet> on 2022-12-07 16:36:40.909588+00:00
+[2022-12-07T16:36:42.322+0000] {standard_task_runner.py:55} INFO - Started process 4825 to run task
+[2022-12-07T16:36:42.325+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python_operator_dag_v3', 'greet', 'manual__2022-12-07T16:36:40.909588+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/python_operator_dag.py', '--cfg-path', '/tmp/tmp6vu10tnw']
+[2022-12-07T16:36:42.326+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask greet
+[2022-12-07T16:36:42.448+0000] {task_command.py:389} INFO - Running <TaskInstance: python_operator_dag_v3.greet manual__2022-12-07T16:36:40.909588+00:00 [running]> on host 4f590d7fc3b1
+[2022-12-07T16:36:43.053+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=python_operator_dag_v3
+AIRFLOW_CTX_TASK_ID=greet
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-07T16:36:40.909588+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-07T16:36:40.909588+00:00
+[2022-12-07T16:36:43.054+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/python_operator_dag.py", line 16, in greet
+    print("emotional damage!: " + name + " " + age )
+TypeError: can only concatenate str (not "int") to str
+[2022-12-07T16:36:43.063+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=python_operator_dag_v3, task_id=greet, execution_date=20221207T163640, start_date=20221207T163642, end_date=20221207T163643
+[2022-12-07T16:36:43.193+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 6 for task greet (can only concatenate str (not "int") to str; 4825)
+[2022-12-07T16:36:43.379+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-07T16:36:43.409+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
