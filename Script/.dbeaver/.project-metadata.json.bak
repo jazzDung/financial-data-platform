@@ -1,1 +1,0 @@
-{"resources":{"Create Table.sql":{"default-datasource":"postgres-jdbc-184be73f699-47f43cac0d0d06d9","default-catalog":"financialDataPlatform","default-schema":"public"},"Hypertable and CSV Import.sql":{"default-datasource":"postgres-jdbc-184be73f699-47f43cac0d0d06d9","default-catalog":"financialDataPlatform","default-schema":"public"}}}
