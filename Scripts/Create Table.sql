@@ -28,9 +28,18 @@
 --TRUNCATE table valuation_rating cascade;
 --TRUNCATE table industry_financial_health cascade;
 
+-- ALTER TABLE general_rating ADD CONSTRAINT fk_listing_companies_general_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_model_rating ADD CONSTRAINT fk_listing_companies_business_model_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_operation_rating ADD CONSTRAINT fk_listing_companies_business_operation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE financial_health_rating ADD CONSTRAINT fk_listing_companies_financial_health_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE valuation_rating ADD CONSTRAINT fk_listing_companies_valuation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE industry_financial_health ADD CONSTRAINT fk_listing_companies_industry_financial_health FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+
+
+
 CREATE TABLE IF NOT EXISTS listing_companies (
  	id serial,
- 	ticker varchar(8) unique,
+ 	ticker varchar(3) unique,
  	exchange varchar(5),
  	short_name varchar(256),
  	industry_id double precision,
@@ -234,12 +243,13 @@ CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
  	pcp double precision,
 	time_stamp timestamp,
  	ticker varchar(3),
+ 	PRIMARY KEY (id, time_stamp),
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
  
  
 CREATE TABLE IF NOT EXISTS general_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	stock_rating double precision,
  	valuation double precision,
  	financial_health double precision,
@@ -259,7 +269,7 @@ CREATE TABLE IF NOT EXISTS general_rating (
  
  
 CREATE TABLE IF NOT EXISTS business_model_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	business_model double precision,
  	business_efficiency double precision,
  	asset_quality double precision,
@@ -277,7 +287,7 @@ CREATE TABLE IF NOT EXISTS business_model_rating (
  
  
 CREATE TABLE IF NOT EXISTS business_operation_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	loan_growth double precision,
  	deposit_growth double precision,
@@ -303,7 +313,7 @@ CREATE TABLE IF NOT EXISTS business_operation_rating (
  
  
 CREATE TABLE IF NOT EXISTS financial_health_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	loan_deposit double precision,
  	bad_loan_gross_loan double precision,
@@ -321,7 +331,7 @@ CREATE TABLE IF NOT EXISTS financial_health_rating (
  
  
 CREATE TABLE IF NOT EXISTS valuation_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	valuation double precision,
  	pe double precision,
@@ -335,7 +345,7 @@ CREATE TABLE IF NOT EXISTS valuation_rating (
  
  
 CREATE TABLE IF NOT EXISTS industry_financial_health (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en double precision,
  	loan_deposit double precision,
  	bad_loan_gross_loan double precision,

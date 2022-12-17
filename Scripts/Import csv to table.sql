@@ -1,4 +1,4 @@
--- Run this in terminal
+-- Run this in terminal, change file location
 
 
 \copy listing_companies

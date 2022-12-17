@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-18520e9442f-1282affa7d9aa090": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "financialDataPlatform",
+			"save-password": true,
+			"virtual-model-id": "postgres-jdbc-1850ee2d173-2103463d48253350",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "financialDataPlatform",
+				"url": "jdbc:postgresql://localhost:5432/financialDataPlatform",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

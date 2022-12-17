@@ -1,0 +1,3 @@
+- Create table (Template): File sql tạo tự động bằng code python, dựa trên dữ liệu trong các file CSV, không tạo bảng trực tiếp bằng file này được
+- Create table: File sql hoàn chỉnh để tạo bảng
+- Timescale Hypertable: Tạo hypertable từ các bảng có trường dữ liệu timestamp, ngoài ra đang thử nghiệm 1 số tính năng như nén dữ liệu, xóa dữ liệu định kỳ (Không chạy các tính năng này luôn vì nó chưa hoàn chỉnh)
