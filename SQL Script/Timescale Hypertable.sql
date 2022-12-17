@@ -11,17 +11,17 @@ SELECT create_hypertable('stock_intraday_transaction','time_stamp');
 --  timescaledb.compress_orderby = 'time_stamp DESC',
 --  timescaledb.compress_segmentby = 'ticker'
 --);
---
--- auto data compression
+----
+---- auto data compression
 --SELECT add_compression_policy('stock_history', INTERVAL '2 weeks');
 --SELECT add_compression_policy('stock_history', INTERVAL '0 day');
 --
--- remove compression
+---- remove compression
 --ALTER TABLE stock_history SET (timescaledb.compress=false);
 --SELECT remove_compression_policy('stock_history');
 --SELECT remove_compression_policy('stock_intraday_transaction');
 --
--- verify compression
+---- verify compression
 --SELECT * FROM timescaledb_information.compression_settings;
 --
 --SELECT 
@@ -29,6 +29,9 @@ SELECT create_hypertable('stock_intraday_transaction','time_stamp');
 --  	pg_size_pretty(after_compression_total_bytes) as "after compression"
 --  	FROM hypertable_compression_stats('stock_history');
 --  
- 
+--SELECT 
+--	pg_size_pretty(before_compression_total_bytes) as "before compression",
+--  	pg_size_pretty(after_compression_total_bytes) as "after compression"
+--  	FROM hypertable_compression_stats('stock_intraday_transaction');
  
  

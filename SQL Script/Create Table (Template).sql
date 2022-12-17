@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS listing_companies (
  
  
 CREATE TABLE IF NOT EXISTS stock_history (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	time_stamp varchar(19),
  	open double precision,
  	high double precision,
