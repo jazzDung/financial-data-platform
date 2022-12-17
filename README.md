@@ -1,5 +1,13 @@
 # Project 3
 
+### Workflow
+- Mọi người set up Postgresql, TimescaleDB, Docker
+- Dùng script Create Table để tạo bảng
+- Dùng các lệnh trong script Import csv to table để import file csv vào bảng
+- Build file docker-compose trên Docker để bắt đầu xử dụng Airflow
+- Mở remote access cho database, kết nối Airflow với database tại mục Admin/Connections
+- Viết thử 1 vài file DAG để thực hiện các tác vụ tính toán hoặc tác động lên database
+
 ### API
 Chứa code python phục vụ các công việc sau:
 
