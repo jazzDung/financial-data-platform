@@ -327,25 +327,9 @@ CREATE TABLE IF NOT EXISTS industry_financial_health (
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
  
- 
-CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
- 	index integer,
- 	price double precision,
- 	volume integer,
- 	cp double precision,
- 	rcp double precision,
- 	a varchar(2),
- 	ba double precision,
- 	sa double precision,
- 	hl varchar(256),
- 	pcp double precision,
- 	time_stamp varchar(19),
- 	ticker varchar(3),
- 	PRIMARY KEY (index, price, volume),
- 	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
- );
- 
- 
 
- 
- 
+
+
+
+
+
