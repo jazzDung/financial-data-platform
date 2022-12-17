@@ -14,19 +14,19 @@
 --drop table if exists industry_financial_health cascade;
 
 --TRUNCATE table listing_companies cascade;
---TRUNCATE table if exists stock_history cascade;
---TRUNCATE table if exists income_statement cascade;
---TRUNCATE table if exists balance_sheet cascade;
---TRUNCATE table if exists cash_flow cascade;
---TRUNCATE table if exists financial_ratio cascade;
---TRUNCATE table if exists stock_intraday_transaction cascade;
+--TRUNCATE table stock_history cascade;
+--TRUNCATE table income_statement cascade;
+--TRUNCATE table balance_sheet cascade;
+--TRUNCATE table cash_flow cascade;
+--TRUNCATE table financial_ratio cascade;
+--TRUNCATE table stock_intraday_transaction cascade;
 
---TRUNCATE table if exists general_rating cascade;
---TRUNCATE table if exists business_model_rating cascade;
---TRUNCATE table if exists business_operation_rating cascade;
---TRUNCATE table if exists financial_health_rating cascade;
---TRUNCATE table if exists valuation_rating cascade;
---TRUNCATE table if exists industry_financial_health cascade;
+--TRUNCATE table general_rating cascade;
+--TRUNCATE table business_model_rating cascade;
+--TRUNCATE table business_operation_rating cascade;
+--TRUNCATE table financial_health_rating cascade;
+--TRUNCATE table valuation_rating cascade;
+--TRUNCATE table industry_financial_health cascade;
 
 CREATE TABLE IF NOT EXISTS listing_companies (
  	id serial,
