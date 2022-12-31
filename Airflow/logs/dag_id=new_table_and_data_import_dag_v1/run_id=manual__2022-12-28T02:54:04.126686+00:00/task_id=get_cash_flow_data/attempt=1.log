@@ -1,0 +1,40 @@
+[2022-12-28T02:54:10.729+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: new_table_and_data_import_dag_v1.get_cash_flow_data manual__2022-12-28T02:54:04.126686+00:00 [queued]>
+[2022-12-28T02:54:10.738+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: new_table_and_data_import_dag_v1.get_cash_flow_data manual__2022-12-28T02:54:04.126686+00:00 [queued]>
+[2022-12-28T02:54:10.739+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T02:54:10.739+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-28T02:54:10.739+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T02:54:10.818+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_cash_flow_data> on 2022-12-28 02:54:04.126686+00:00
+[2022-12-28T02:54:10.822+0000] {standard_task_runner.py:55} INFO - Started process 10842 to run task
+[2022-12-28T02:54:10.825+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'new_table_and_data_import_dag_v1', 'get_cash_flow_data', 'manual__2022-12-28T02:54:04.126686+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/new_table_and_data_import_dag.py', '--cfg-path', '/tmp/tmp55xhc_38']
+[2022-12-28T02:54:10.826+0000] {standard_task_runner.py:83} INFO - Job 105: Subtask get_cash_flow_data
+[2022-12-28T02:54:10.906+0000] {task_command.py:389} INFO - Running <TaskInstance: new_table_and_data_import_dag_v1.get_cash_flow_data manual__2022-12-28T02:54:04.126686+00:00 [running]> on host 64867ca07077
+[2022-12-28T02:54:11.013+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=new_table_and_data_import_dag_v1
+AIRFLOW_CTX_TASK_ID=get_cash_flow_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T02:54:04.126686+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-28T02:54:04.126686+00:00
+[2022-12-28T02:54:31.394+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/new_table_and_data_import_dag.py", line 57, in get_cash_flow
+    cash_flow.to_csv('/home/jazzdung/Cash Flow.csv', sep=',', encoding='utf-8')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jazzdung/Cash Flow.csv'
+[2022-12-28T02:54:31.406+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=new_table_and_data_import_dag_v1, task_id=get_cash_flow_data, execution_date=20221228T025404, start_date=20221228T025410, end_date=20221228T025431
+[2022-12-28T02:54:31.671+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 105 for task get_cash_flow_data ([Errno 2] No such file or directory: '/home/jazzdung/Cash Flow.csv'; 10842)
+[2022-12-28T02:54:31.710+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-28T02:54:31.742+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

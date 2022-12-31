@@ -6,6 +6,42 @@
 --drop table if exists financial_ratio cascade;
 --drop table if exists stock_intraday_transaction cascade;
 
+<<<<<<< Updated upstream:Script/Create Table.sql
+=======
+--drop table if exists general_rating cascade;
+--drop table if exists business_model_rating cascade;
+--drop table if exists business_operation_rating cascade;
+--drop table if exists financial_health_rating cascade;
+--drop table if exists valuation_rating cascade;
+--drop table if exists industry_financial_health cascade;
+
+--TRUNCATE table listing_companies cascade;
+--TRUNCATE table stock_history cascade;
+--TRUNCATE table income_statement cascade;
+--TRUNCATE table balance_sheet cascade;
+--TRUNCATE table cash_flow cascade;
+--TRUNCATE table financial_ratio cascade;
+--TRUNCATE table stock_intraday_transaction cascade;
+--TRUNCATE table test_table cascade;
+
+
+--TRUNCATE table general_rating cascade;
+--TRUNCATE table business_model_rating cascade;
+--TRUNCATE table business_operation_rating cascade;
+--TRUNCATE table financial_health_rating cascade;
+--TRUNCATE table valuation_rating cascade;
+--TRUNCATE table industry_financial_health cascade;
+
+-- ALTER TABLE general_rating ADD CONSTRAINT fk_listing_companies_general_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_model_rating ADD CONSTRAINT fk_listing_companies_business_model_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_operation_rating ADD CONSTRAINT fk_listing_companies_business_operation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE financial_health_rating ADD CONSTRAINT fk_listing_companies_financial_health_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE valuation_rating ADD CONSTRAINT fk_listing_companies_valuation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE industry_financial_health ADD CONSTRAINT fk_listing_companies_industry_financial_health FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+
+
+
+>>>>>>> Stashed changes:Scripts/Create Table.sql
 CREATE TABLE IF NOT EXISTS listing_companies (
 	id serial,
  	ticker varchar(8) unique,

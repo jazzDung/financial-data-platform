@@ -1,0 +1,50 @@
+[2022-12-26T04:13:38.446+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: new_table_and_data_import_dag_v1.import_data manual__2022-12-26T04:13:22.119614+00:00 [queued]>
+[2022-12-26T04:13:38.454+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: new_table_and_data_import_dag_v1.import_data manual__2022-12-26T04:13:22.119614+00:00 [queued]>
+[2022-12-26T04:13:38.454+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-26T04:13:38.454+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-26T04:13:38.454+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-26T04:13:38.612+0000] {taskinstance.py:1304} INFO - Executing <Task(PostgresOperator): import_data> on 2022-12-26 04:13:22.119614+00:00
+[2022-12-26T04:13:38.618+0000] {standard_task_runner.py:55} INFO - Started process 968 to run task
+[2022-12-26T04:13:38.621+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'new_table_and_data_import_dag_v1', 'import_data', 'manual__2022-12-26T04:13:22.119614+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/new_table_and_data_import_dag.py', '--cfg-path', '/tmp/tmphnm2gouh']
+[2022-12-26T04:13:38.622+0000] {standard_task_runner.py:83} INFO - Job 78: Subtask import_data
+[2022-12-26T04:13:38.710+0000] {task_command.py:389} INFO - Running <TaskInstance: new_table_and_data_import_dag_v1.import_data manual__2022-12-26T04:13:22.119614+00:00 [running]> on host 3a7da4d7a43a
+[2022-12-26T04:13:38.957+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=new_table_and_data_import_dag_v1
+AIRFLOW_CTX_TASK_ID=import_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-26T04:13:22.119614+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-26T04:13:22.119614+00:00
+[2022-12-26T04:13:38.958+0000] {sql.py:253} INFO - Executing: 
+            COPY cash_flow
+            FROM 'Cash Flow.csv'
+            DELIMITER ','
+            CSV HEADER; 
+        
+[2022-12-26T04:13:38.965+0000] {base.py:73} INFO - Using connection ID 'financial_database' for task execution.
+[2022-12-26T04:13:39.237+0000] {base.py:73} INFO - Using connection ID 'financial_database' for task execution.
+[2022-12-26T04:13:39.246+0000] {sql.py:364} INFO - Running statement: 
+            COPY cash_flow
+            FROM 'Cash Flow.csv'
+            DELIMITER ','
+            CSV HEADER; 
+        , parameters: None
+[2022-12-26T04:13:39.250+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 261, in execute
+    return_last=self.return_last,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 338, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 369, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedFile: could not open file "Cash Flow.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+
+[2022-12-26T04:13:39.257+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=new_table_and_data_import_dag_v1, task_id=import_data, execution_date=20221226T041322, start_date=20221226T041338, end_date=20221226T041339
+[2022-12-26T04:13:39.309+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 78 for task import_data (could not open file "Cash Flow.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+; 968)
+[2022-12-26T04:13:39.354+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-26T04:13:39.370+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
