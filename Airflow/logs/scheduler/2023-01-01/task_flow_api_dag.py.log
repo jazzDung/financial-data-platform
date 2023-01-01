@@ -1,0 +1,15 @@
+[2023-01-01T03:45:28.867+0000] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:45:28.868+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/task_flow_api_dag.py for tasks to queue
+[2023-01-01T03:45:28.869+0000] {logging_mixin.py:137} INFO - [2023-01-01T03:45:28.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:45:28.870+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:45:28.881+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/task_flow_api_dag.py took 0.016 seconds
+[2023-01-01T03:46:02.613+0000] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:02.614+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/task_flow_api_dag.py for tasks to queue
+[2023-01-01T03:46:02.614+0000] {logging_mixin.py:137} INFO - [2023-01-01T03:46:02.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:02.615+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:02.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/task_flow_api_dag.py took 0.016 seconds
+[2023-01-01T03:46:33.062+0000] {processor.py:153} INFO - Started process (PID=232) to work on /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:33.167+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/task_flow_api_dag.py for tasks to queue
+[2023-01-01T03:46:33.168+0000] {logging_mixin.py:137} INFO - [2023-01-01T03:46:33.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:33.169+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/task_flow_api_dag.py
+[2023-01-01T03:46:33.180+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/task_flow_api_dag.py took 0.119 seconds
