@@ -1,0 +1,41 @@
+[2023-01-04T04:47:13.021+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: ticker_to_txt.save_ticker_list_to_txt manual__2023-01-04T04:47:12.339876+00:00 [queued]>
+[2023-01-04T04:47:13.030+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: ticker_to_txt.save_ticker_list_to_txt manual__2023-01-04T04:47:12.339876+00:00 [queued]>
+[2023-01-04T04:47:13.030+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04T04:47:13.030+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-04T04:47:13.030+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04T04:47:13.080+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): save_ticker_list_to_txt> on 2023-01-04 04:47:12.339876+00:00
+[2023-01-04T04:47:13.085+0000] {standard_task_runner.py:55} INFO - Started process 6090 to run task
+[2023-01-04T04:47:13.089+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ticker_to_txt', 'save_ticker_list_to_txt', 'manual__2023-01-04T04:47:12.339876+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/ticker.py', '--cfg-path', '/tmp/tmpx6e3sdy0']
+[2023-01-04T04:47:13.089+0000] {standard_task_runner.py:83} INFO - Job 146: Subtask save_ticker_list_to_txt
+[2023-01-04T04:47:13.192+0000] {task_command.py:389} INFO - Running <TaskInstance: ticker_to_txt.save_ticker_list_to_txt manual__2023-01-04T04:47:12.339876+00:00 [running]> on host e3ae32d114c2
+[2023-01-04T04:47:13.431+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_to_txt
+AIRFLOW_CTX_TASK_ID=save_ticker_list_to_txt
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-04T04:47:12.339876+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-04T04:47:12.339876+00:00
+[2023-01-04T04:47:13.433+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-04T04:47:13.433+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/script/python/ticker_to_txt.py']
+[2023-01-04T04:47:13.445+0000] {subprocess.py:86} INFO - Output:
+[2023-01-04T04:47:15.555+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-01-04T04:47:15.555+0000] {subprocess.py:93} INFO -   File "/opt/***/script/python/ticker_to_txt.py", line 28, in <module>
+[2023-01-04T04:47:15.555+0000] {subprocess.py:93} INFO -     main()
+[2023-01-04T04:47:15.555+0000] {subprocess.py:93} INFO -   File "/opt/***/script/python/ticker_to_txt.py", line 25, in main
+[2023-01-04T04:47:15.556+0000] {subprocess.py:93} INFO -     data_to_txt()
+[2023-01-04T04:47:15.556+0000] {subprocess.py:93} INFO -   File "/opt/***/script/python/ticker_to_txt.py", line 16, in data_to_txt
+[2023-01-04T04:47:15.556+0000] {subprocess.py:93} INFO -     with open("/home/jazzdung/Project III/Airflow/data/ticker.txt", "w+") as outfile:
+[2023-01-04T04:47:15.556+0000] {subprocess.py:93} INFO - FileNotFoundError: [Errno 2] No such file or directory: '/home/jazzdung/Project III/Airflow/data/ticker.txt'
+[2023-01-04T04:47:15.607+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-01-04T04:47:15.618+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-01-04T04:47:15.621+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=ticker_to_txt, task_id=save_ticker_list_to_txt, execution_date=20230104T044712, start_date=20230104T044713, end_date=20230104T044715
+[2023-01-04T04:47:15.807+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 146 for task save_ticker_list_to_txt (Bash command failed. The command returned a non-zero exit code 1.; 6090)
+[2023-01-04T04:47:15.843+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-01-04T04:47:15.859+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

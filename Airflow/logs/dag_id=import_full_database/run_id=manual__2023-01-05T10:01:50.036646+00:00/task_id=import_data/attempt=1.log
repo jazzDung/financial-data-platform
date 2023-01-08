@@ -1,0 +1,392 @@
+[2023-01-05T10:01:51.548+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_full_database.import_data manual__2023-01-05T10:01:50.036646+00:00 [queued]>
+[2023-01-05T10:01:51.563+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_full_database.import_data manual__2023-01-05T10:01:50.036646+00:00 [queued]>
+[2023-01-05T10:01:51.563+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T10:01:51.563+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-05T10:01:51.563+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T10:01:51.724+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): import_data> on 2023-01-05 10:01:50.036646+00:00
+[2023-01-05T10:01:51.732+0000] {standard_task_runner.py:55} INFO - Started process 10850 to run task
+[2023-01-05T10:01:51.736+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'import_full_database', 'import_data', 'manual__2023-01-05T10:01:50.036646+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/import_full_database.py', '--cfg-path', '/tmp/tmpi8m9ylm_']
+[2023-01-05T10:01:51.738+0000] {standard_task_runner.py:83} INFO - Job 212: Subtask import_data
+[2023-01-05T10:01:52.328+0000] {task_command.py:389} INFO - Running <TaskInstance: import_full_database.import_data manual__2023-01-05T10:01:50.036646+00:00 [running]> on host d84d515babd0
+[2023-01-05T10:01:52.603+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=import_full_database
+AIRFLOW_CTX_TASK_ID=import_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-05T10:01:50.036646+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-05T10:01:50.036646+00:00
+[2023-01-05T10:01:53.443+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1901, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.DependentObjectsStillExist: cannot drop table listing_companies because other objects depend on it
+DETAIL:  constraint stock_history_ticker_fkey on table stock_history depends on table listing_companies
+constraint income_statement_ticker_fkey on table income_statement depends on table listing_companies
+constraint balance_sheet_ticker_fkey on table balance_sheet depends on table listing_companies
+constraint financial_ratio_ticker_fkey on table financial_ratio depends on table listing_companies
+constraint stock_intraday_transaction_ticker_fkey on table stock_intraday_transaction depends on table listing_companies
+constraint 831_1327_stock_intraday_transaction_ticker_fkey on table _timescaledb_internal._hyper_11_831_chunk depends on table listing_companies
+constraint stock_history_ticker_fkey on table _timescaledb_internal._compressed_hypertable_12 depends on table listing_companies
+constraint 832_1328_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_832_chunk depends on table listing_companies
+constraint 833_1329_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_833_chunk depends on table listing_companies
+constraint 834_1330_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_834_chunk depends on table listing_companies
+constraint 835_1331_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_835_chunk depends on table listing_companies
+constraint 836_1332_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_836_chunk depends on table listing_companies
+constraint 837_1333_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_837_chunk depends on table listing_companies
+constraint 838_1334_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_838_chunk depends on table listing_companies
+constraint 839_1335_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_839_chunk depends on table listing_companies
+constraint 840_1336_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_840_chunk depends on table listing_companies
+constraint 841_1337_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_841_chunk depends on table listing_companies
+constraint 842_1338_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_842_chunk depends on table listing_companies
+constraint 843_1339_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_843_chunk depends on table listing_companies
+constraint 844_1340_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_844_chunk depends on table listing_companies
+constraint 845_1341_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_845_chunk depends on table listing_companies
+constraint 846_1342_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_846_chunk depends on table listing_companies
+constraint 847_1343_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_847_chunk depends on table listing_companies
+constraint 848_1344_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_848_chunk depends on table listing_companies
+constraint 849_1345_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_849_chunk depends on table listing_companies
+constraint 850_1346_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_850_chunk depends on table listing_companies
+constraint 851_1347_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_851_chunk depends on table listing_companies
+constraint 852_1348_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_852_chunk depends on table listing_companies
+constraint 853_1349_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_853_chunk depends on table listing_companies
+constraint 854_1350_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_854_chunk depends on table listing_companies
+constraint 855_1351_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_855_chunk depends on table listing_companies
+constraint 856_1352_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_856_chunk depends on table listing_companies
+constraint 857_1353_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_857_chunk depends on table listing_companies
+constraint 858_1354_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_858_chunk depends on table listing_companies
+constraint 859_1355_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_859_chunk depends on table listing_companies
+constraint 860_1356_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_860_chunk depends on table listing_companies
+constraint 861_1357_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_861_chunk depends on table listing_companies
+constraint 862_1358_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_862_chunk depends on table listing_companies
+constraint 863_1359_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_863_chunk depends on table listing_companies
+constraint 864_1360_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_864_chunk depends on table listing_companies
+constraint 865_1361_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_865_chunk depends on table listing_companies
+constraint 866_1362_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_866_chunk depends on table listing_companies
+constraint 867_1363_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_867_chunk depends on table listing_companies
+constraint 868_1364_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_868_chunk depends on table listing_companies
+constraint 869_1365_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_869_chunk depends on table listing_companies
+constraint 870_1366_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_870_chunk depends on table listing_companies
+constraint 871_1367_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_871_chunk depends on table listing_companies
+constraint 872_1368_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_872_chunk depends on table listing_companies
+constraint 873_1369_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_873_chunk depends on table listing_companies
+constraint 874_1370_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_874_chunk depends on table listing_companies
+constraint 875_1371_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_875_chunk depends on table listing_companies
+constraint 876_1372_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_876_chunk depends on table listing_companies
+constraint 877_1373_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_877_chunk depends on table listing_companies
+constraint 878_1374_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_878_chunk depends on table listing_companies
+constraint 879_1375_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_879_chunk depends on table listing_companies
+constraint 880_1376_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_880_chunk depends on table listing_companies
+constraint 881_1377_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_881_chunk depends on table listing_companies
+constraint 882_1378_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_882_chunk depends on table listing_companies
+constraint 883_1379_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_883_chunk depends on table listing_companies
+constraint 884_1380_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_884_chunk depends on table listing_companies
+constraint 885_1381_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_885_chunk depends on table listing_companies
+constraint 886_1382_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_886_chunk depends on table listing_companies
+constraint 887_1383_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_887_chunk depends on table listing_companies
+constraint 888_1384_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_888_chunk depends on table listing_companies
+constraint 889_1385_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_889_chunk depends on table listing_companies
+constraint 890_1386_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_890_chunk depends on table listing_companies
+constraint 891_1387_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_891_chunk depends on table listing_companies
+constraint 892_1388_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_892_chunk depends on table listing_companies
+constraint 893_1389_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_893_chunk depends on table listing_companies
+constraint 894_1390_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_894_chunk depends on table listing_companies
+constraint 895_1391_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_895_chunk depends on table listing_companies
+constraint 896_1392_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_896_chunk depends on table listing_companies
+constraint 897_1393_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_897_chunk depends on table listing_companies
+constraint 898_1394_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_898_chunk depends on table listing_companies
+constraint 899_1395_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_899_chunk depends on table listing_companies
+constraint 900_1396_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_900_chunk depends on table listing_companies
+constraint 901_1397_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_901_chunk depends on table listing_companies
+constraint 902_1398_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_902_chunk depends on table listing_companies
+constraint 903_1399_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_903_chunk depends on table listing_companies
+constraint 904_1400_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_904_chunk depends on table listing_companies
+constraint 905_1401_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_905_chunk depends on table listing_companies
+constraint 906_1402_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_906_chunk depends on table listing_companies
+constraint 907_1403_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_907_chunk depends on table listing_companies
+constraint 908_1404_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_908_chunk depends on table listing_companies
+constraint 909_1405_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_909_chunk depends on table listing_companies
+constraint 910_1406_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_910_chunk depends on table listing_companies
+constraint 911_1407_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_911_chunk depends on table listing_companies
+constraint 912_1408_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_912_chunk depends on table listing_companies
+constraint 913_1409_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_913_chunk depends on table listing_companies
+constraint 914_1410_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_914_chunk depends on table listing_companies
+constraint 915_1411_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_915_chunk depends on table listing_companies
+constraint 916_1412_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_916_chunk depends on table listing_companies
+constraint 917_1413_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_917_chunk depends on table listing_companies
+constraint 918_1414_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_918_chunk depends on table listing_companies
+constraint 919_1415_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_919_chunk depends on table listing_companies
+constraint 920_1416_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_920_chunk depends on table listing_companies
+constraint 921_1417_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_921_chunk depends on table listing_companies
+constraint 922_1418_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_922_chunk depends on table listing_companies
+constraint 923_1419_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_923_chunk depends on table listing_companies
+constraint 924_1420_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_924_chunk depends on table listing_companies
+and 12 other objects (see server log for list)
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/import_full_database.py", line 33, in csv_to_db
+    listing_companies.to_sql('listing_companies', con=conn, if_exists='replace', index=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1758, in to_sql
+    dtype=dtype,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1650, in prep_table
+    table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 860, in create
+    self.pd_sql.drop_table(self.name, self.schema)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1810, in drop_table
+    self.get_table(table_name, schema).drop()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py", line 979, in drop
+    bind._run_ddl_visitor(ddl.SchemaDropper, self, checkfirst=checkfirst)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2211, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 1102, in visit_table
+    self.connection.execute(DropTable(table))
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1380, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 81, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1478, in _execute_ddl
+    compiled,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1944, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2125, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 210, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1901, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InternalError: (psycopg2.errors.DependentObjectsStillExist) cannot drop table listing_companies because other objects depend on it
+DETAIL:  constraint stock_history_ticker_fkey on table stock_history depends on table listing_companies
+constraint income_statement_ticker_fkey on table income_statement depends on table listing_companies
+constraint balance_sheet_ticker_fkey on table balance_sheet depends on table listing_companies
+constraint financial_ratio_ticker_fkey on table financial_ratio depends on table listing_companies
+constraint stock_intraday_transaction_ticker_fkey on table stock_intraday_transaction depends on table listing_companies
+constraint 831_1327_stock_intraday_transaction_ticker_fkey on table _timescaledb_internal._hyper_11_831_chunk depends on table listing_companies
+constraint stock_history_ticker_fkey on table _timescaledb_internal._compressed_hypertable_12 depends on table listing_companies
+constraint 832_1328_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_832_chunk depends on table listing_companies
+constraint 833_1329_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_833_chunk depends on table listing_companies
+constraint 834_1330_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_834_chunk depends on table listing_companies
+constraint 835_1331_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_835_chunk depends on table listing_companies
+constraint 836_1332_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_836_chunk depends on table listing_companies
+constraint 837_1333_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_837_chunk depends on table listing_companies
+constraint 838_1334_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_838_chunk depends on table listing_companies
+constraint 839_1335_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_839_chunk depends on table listing_companies
+constraint 840_1336_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_840_chunk depends on table listing_companies
+constraint 841_1337_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_841_chunk depends on table listing_companies
+constraint 842_1338_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_842_chunk depends on table listing_companies
+constraint 843_1339_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_843_chunk depends on table listing_companies
+constraint 844_1340_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_844_chunk depends on table listing_companies
+constraint 845_1341_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_845_chunk depends on table listing_companies
+constraint 846_1342_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_846_chunk depends on table listing_companies
+constraint 847_1343_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_847_chunk depends on table listing_companies
+constraint 848_1344_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_848_chunk depends on table listing_companies
+constraint 849_1345_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_849_chunk depends on table listing_companies
+constraint 850_1346_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_850_chunk depends on table listing_companies
+constraint 851_1347_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_851_chunk depends on table listing_companies
+constraint 852_1348_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_852_chunk depends on table listing_companies
+constraint 853_1349_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_853_chunk depends on table listing_companies
+constraint 854_1350_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_854_chunk depends on table listing_companies
+constraint 855_1351_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_855_chunk depends on table listing_companies
+constraint 856_1352_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_856_chunk depends on table listing_companies
+constraint 857_1353_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_857_chunk depends on table listing_companies
+constraint 858_1354_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_858_chunk depends on table listing_companies
+constraint 859_1355_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_859_chunk depends on table listing_companies
+constraint 860_1356_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_860_chunk depends on table listing_companies
+constraint 861_1357_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_861_chunk depends on table listing_companies
+constraint 862_1358_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_862_chunk depends on table listing_companies
+constraint 863_1359_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_863_chunk depends on table listing_companies
+constraint 864_1360_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_864_chunk depends on table listing_companies
+constraint 865_1361_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_865_chunk depends on table listing_companies
+constraint 866_1362_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_866_chunk depends on table listing_companies
+constraint 867_1363_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_867_chunk depends on table listing_companies
+constraint 868_1364_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_868_chunk depends on table listing_companies
+constraint 869_1365_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_869_chunk depends on table listing_companies
+constraint 870_1366_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_870_chunk depends on table listing_companies
+constraint 871_1367_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_871_chunk depends on table listing_companies
+constraint 872_1368_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_872_chunk depends on table listing_companies
+constraint 873_1369_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_873_chunk depends on table listing_companies
+constraint 874_1370_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_874_chunk depends on table listing_companies
+constraint 875_1371_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_875_chunk depends on table listing_companies
+constraint 876_1372_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_876_chunk depends on table listing_companies
+constraint 877_1373_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_877_chunk depends on table listing_companies
+constraint 878_1374_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_878_chunk depends on table listing_companies
+constraint 879_1375_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_879_chunk depends on table listing_companies
+constraint 880_1376_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_880_chunk depends on table listing_companies
+constraint 881_1377_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_881_chunk depends on table listing_companies
+constraint 882_1378_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_882_chunk depends on table listing_companies
+constraint 883_1379_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_883_chunk depends on table listing_companies
+constraint 884_1380_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_884_chunk depends on table listing_companies
+constraint 885_1381_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_885_chunk depends on table listing_companies
+constraint 886_1382_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_886_chunk depends on table listing_companies
+constraint 887_1383_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_887_chunk depends on table listing_companies
+constraint 888_1384_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_888_chunk depends on table listing_companies
+constraint 889_1385_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_889_chunk depends on table listing_companies
+constraint 890_1386_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_890_chunk depends on table listing_companies
+constraint 891_1387_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_891_chunk depends on table listing_companies
+constraint 892_1388_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_892_chunk depends on table listing_companies
+constraint 893_1389_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_893_chunk depends on table listing_companies
+constraint 894_1390_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_894_chunk depends on table listing_companies
+constraint 895_1391_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_895_chunk depends on table listing_companies
+constraint 896_1392_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_896_chunk depends on table listing_companies
+constraint 897_1393_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_897_chunk depends on table listing_companies
+constraint 898_1394_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_898_chunk depends on table listing_companies
+constraint 899_1395_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_899_chunk depends on table listing_companies
+constraint 900_1396_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_900_chunk depends on table listing_companies
+constraint 901_1397_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_901_chunk depends on table listing_companies
+constraint 902_1398_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_902_chunk depends on table listing_companies
+constraint 903_1399_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_903_chunk depends on table listing_companies
+constraint 904_1400_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_904_chunk depends on table listing_companies
+constraint 905_1401_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_905_chunk depends on table listing_companies
+constraint 906_1402_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_906_chunk depends on table listing_companies
+constraint 907_1403_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_907_chunk depends on table listing_companies
+constraint 908_1404_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_908_chunk depends on table listing_companies
+constraint 909_1405_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_909_chunk depends on table listing_companies
+constraint 910_1406_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_910_chunk depends on table listing_companies
+constraint 911_1407_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_911_chunk depends on table listing_companies
+constraint 912_1408_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_912_chunk depends on table listing_companies
+constraint 913_1409_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_913_chunk depends on table listing_companies
+constraint 914_1410_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_914_chunk depends on table listing_companies
+constraint 915_1411_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_915_chunk depends on table listing_companies
+constraint 916_1412_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_916_chunk depends on table listing_companies
+constraint 917_1413_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_917_chunk depends on table listing_companies
+constraint 918_1414_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_918_chunk depends on table listing_companies
+constraint 919_1415_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_919_chunk depends on table listing_companies
+constraint 920_1416_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_920_chunk depends on table listing_companies
+constraint 921_1417_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_921_chunk depends on table listing_companies
+constraint 922_1418_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_922_chunk depends on table listing_companies
+constraint 923_1419_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_923_chunk depends on table listing_companies
+constraint 924_1420_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_924_chunk depends on table listing_companies
+and 12 other objects (see server log for list)
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+
+[SQL: 
+DROP TABLE listing_companies]
+(Background on this error at: https://sqlalche.me/e/14/2j85)
+[2023-01-05T10:01:53.459+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=import_full_database, task_id=import_data, execution_date=20230105T100150, start_date=20230105T100151, end_date=20230105T100153
+[2023-01-05T10:01:53.616+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 212 for task import_data ((psycopg2.errors.DependentObjectsStillExist) cannot drop table listing_companies because other objects depend on it
+DETAIL:  constraint stock_history_ticker_fkey on table stock_history depends on table listing_companies
+constraint income_statement_ticker_fkey on table income_statement depends on table listing_companies
+constraint balance_sheet_ticker_fkey on table balance_sheet depends on table listing_companies
+constraint financial_ratio_ticker_fkey on table financial_ratio depends on table listing_companies
+constraint stock_intraday_transaction_ticker_fkey on table stock_intraday_transaction depends on table listing_companies
+constraint 831_1327_stock_intraday_transaction_ticker_fkey on table _timescaledb_internal._hyper_11_831_chunk depends on table listing_companies
+constraint stock_history_ticker_fkey on table _timescaledb_internal._compressed_hypertable_12 depends on table listing_companies
+constraint 832_1328_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_832_chunk depends on table listing_companies
+constraint 833_1329_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_833_chunk depends on table listing_companies
+constraint 834_1330_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_834_chunk depends on table listing_companies
+constraint 835_1331_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_835_chunk depends on table listing_companies
+constraint 836_1332_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_836_chunk depends on table listing_companies
+constraint 837_1333_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_837_chunk depends on table listing_companies
+constraint 838_1334_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_838_chunk depends on table listing_companies
+constraint 839_1335_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_839_chunk depends on table listing_companies
+constraint 840_1336_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_840_chunk depends on table listing_companies
+constraint 841_1337_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_841_chunk depends on table listing_companies
+constraint 842_1338_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_842_chunk depends on table listing_companies
+constraint 843_1339_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_843_chunk depends on table listing_companies
+constraint 844_1340_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_844_chunk depends on table listing_companies
+constraint 845_1341_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_845_chunk depends on table listing_companies
+constraint 846_1342_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_846_chunk depends on table listing_companies
+constraint 847_1343_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_847_chunk depends on table listing_companies
+constraint 848_1344_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_848_chunk depends on table listing_companies
+constraint 849_1345_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_849_chunk depends on table listing_companies
+constraint 850_1346_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_850_chunk depends on table listing_companies
+constraint 851_1347_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_851_chunk depends on table listing_companies
+constraint 852_1348_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_852_chunk depends on table listing_companies
+constraint 853_1349_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_853_chunk depends on table listing_companies
+constraint 854_1350_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_854_chunk depends on table listing_companies
+constraint 855_1351_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_855_chunk depends on table listing_companies
+constraint 856_1352_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_856_chunk depends on table listing_companies
+constraint 857_1353_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_857_chunk depends on table listing_companies
+constraint 858_1354_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_858_chunk depends on table listing_companies
+constraint 859_1355_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_859_chunk depends on table listing_companies
+constraint 860_1356_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_860_chunk depends on table listing_companies
+constraint 861_1357_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_861_chunk depends on table listing_companies
+constraint 862_1358_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_862_chunk depends on table listing_companies
+constraint 863_1359_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_863_chunk depends on table listing_companies
+constraint 864_1360_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_864_chunk depends on table listing_companies
+constraint 865_1361_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_865_chunk depends on table listing_companies
+constraint 866_1362_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_866_chunk depends on table listing_companies
+constraint 867_1363_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_867_chunk depends on table listing_companies
+constraint 868_1364_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_868_chunk depends on table listing_companies
+constraint 869_1365_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_869_chunk depends on table listing_companies
+constraint 870_1366_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_870_chunk depends on table listing_companies
+constraint 871_1367_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_871_chunk depends on table listing_companies
+constraint 872_1368_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_872_chunk depends on table listing_companies
+constraint 873_1369_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_873_chunk depends on table listing_companies
+constraint 874_1370_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_874_chunk depends on table listing_companies
+constraint 875_1371_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_875_chunk depends on table listing_companies
+constraint 876_1372_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_876_chunk depends on table listing_companies
+constraint 877_1373_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_877_chunk depends on table listing_companies
+constraint 878_1374_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_878_chunk depends on table listing_companies
+constraint 879_1375_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_879_chunk depends on table listing_companies
+constraint 880_1376_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_880_chunk depends on table listing_companies
+constraint 881_1377_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_881_chunk depends on table listing_companies
+constraint 882_1378_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_882_chunk depends on table listing_companies
+constraint 883_1379_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_883_chunk depends on table listing_companies
+constraint 884_1380_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_884_chunk depends on table listing_companies
+constraint 885_1381_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_885_chunk depends on table listing_companies
+constraint 886_1382_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_886_chunk depends on table listing_companies
+constraint 887_1383_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_887_chunk depends on table listing_companies
+constraint 888_1384_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_888_chunk depends on table listing_companies
+constraint 889_1385_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_889_chunk depends on table listing_companies
+constraint 890_1386_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_890_chunk depends on table listing_companies
+constraint 891_1387_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_891_chunk depends on table listing_companies
+constraint 892_1388_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_892_chunk depends on table listing_companies
+constraint 893_1389_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_893_chunk depends on table listing_companies
+constraint 894_1390_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_894_chunk depends on table listing_companies
+constraint 895_1391_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_895_chunk depends on table listing_companies
+constraint 896_1392_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_896_chunk depends on table listing_companies
+constraint 897_1393_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_897_chunk depends on table listing_companies
+constraint 898_1394_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_898_chunk depends on table listing_companies
+constraint 899_1395_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_899_chunk depends on table listing_companies
+constraint 900_1396_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_900_chunk depends on table listing_companies
+constraint 901_1397_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_901_chunk depends on table listing_companies
+constraint 902_1398_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_902_chunk depends on table listing_companies
+constraint 903_1399_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_903_chunk depends on table listing_companies
+constraint 904_1400_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_904_chunk depends on table listing_companies
+constraint 905_1401_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_905_chunk depends on table listing_companies
+constraint 906_1402_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_906_chunk depends on table listing_companies
+constraint 907_1403_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_907_chunk depends on table listing_companies
+constraint 908_1404_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_908_chunk depends on table listing_companies
+constraint 909_1405_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_909_chunk depends on table listing_companies
+constraint 910_1406_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_910_chunk depends on table listing_companies
+constraint 911_1407_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_911_chunk depends on table listing_companies
+constraint 912_1408_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_912_chunk depends on table listing_companies
+constraint 913_1409_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_913_chunk depends on table listing_companies
+constraint 914_1410_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_914_chunk depends on table listing_companies
+constraint 915_1411_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_915_chunk depends on table listing_companies
+constraint 916_1412_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_916_chunk depends on table listing_companies
+constraint 917_1413_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_917_chunk depends on table listing_companies
+constraint 918_1414_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_918_chunk depends on table listing_companies
+constraint 919_1415_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_919_chunk depends on table listing_companies
+constraint 920_1416_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_920_chunk depends on table listing_companies
+constraint 921_1417_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_921_chunk depends on table listing_companies
+constraint 922_1418_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_922_chunk depends on table listing_companies
+constraint 923_1419_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_923_chunk depends on table listing_companies
+constraint 924_1420_stock_history_ticker_fkey on table _timescaledb_internal.compress_hyper_12_924_chunk depends on table listing_companies
+and 12 other objects (see server log for list)
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+
+[SQL: 
+DROP TABLE listing_companies]
+(Background on this error at: https://sqlalche.me/e/14/2j85); 10850)
+[2023-01-05T10:01:53.642+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-01-05T10:01:53.662+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

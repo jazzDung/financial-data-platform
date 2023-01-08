@@ -1,0 +1,23 @@
+[2023-01-05T09:32:18.360+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_to_test_table_v1.import_cash_flow_data manual__2023-01-05T09:32:06.787643+00:00 [queued]>
+[2023-01-05T09:32:18.369+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_to_test_table_v1.import_cash_flow_data manual__2023-01-05T09:32:06.787643+00:00 [queued]>
+[2023-01-05T09:32:18.370+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T09:32:18.370+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-05T09:32:18.370+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T09:32:18.509+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): import_cash_flow_data> on 2023-01-05 09:32:06.787643+00:00
+[2023-01-05T09:32:18.514+0000] {standard_task_runner.py:55} INFO - Started process 8029 to run task
+[2023-01-05T09:32:18.518+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'import_to_test_table_v1', 'import_cash_flow_data', 'manual__2023-01-05T09:32:06.787643+00:00', '--job-id', '206', '--raw', '--subdir', 'DAGS_FOLDER/import_to_test_table.py', '--cfg-path', '/tmp/tmpyfmfnu93']
+[2023-01-05T09:32:18.519+0000] {standard_task_runner.py:83} INFO - Job 206: Subtask import_cash_flow_data
+[2023-01-05T09:32:18.689+0000] {task_command.py:389} INFO - Running <TaskInstance: import_to_test_table_v1.import_cash_flow_data manual__2023-01-05T09:32:06.787643+00:00 [running]> on host d84d515babd0
+[2023-01-05T09:32:18.920+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=import_to_test_table_v1
+AIRFLOW_CTX_TASK_ID=import_cash_flow_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-05T09:32:06.787643+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-05T09:32:06.787643+00:00
+[2023-01-05T09:32:19.350+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-05T09:32:19.360+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=import_to_test_table_v1, task_id=import_cash_flow_data, execution_date=20230105T093206, start_date=20230105T093218, end_date=20230105T093219
+[2023-01-05T09:32:19.411+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-05T09:32:19.430+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

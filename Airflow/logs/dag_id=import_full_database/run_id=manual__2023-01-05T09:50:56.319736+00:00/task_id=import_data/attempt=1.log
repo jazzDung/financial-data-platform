@@ -1,0 +1,23 @@
+[2023-01-05T09:50:58.236+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_full_database.import_data manual__2023-01-05T09:50:56.319736+00:00 [queued]>
+[2023-01-05T09:50:58.247+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: import_full_database.import_data manual__2023-01-05T09:50:56.319736+00:00 [queued]>
+[2023-01-05T09:50:58.247+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T09:50:58.247+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-05T09:50:58.247+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-05T09:50:58.290+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): import_data> on 2023-01-05 09:50:56.319736+00:00
+[2023-01-05T09:50:58.296+0000] {standard_task_runner.py:55} INFO - Started process 9801 to run task
+[2023-01-05T09:50:58.300+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'import_full_database', 'import_data', 'manual__2023-01-05T09:50:56.319736+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/import_full_database.py', '--cfg-path', '/tmp/tmpkssw37rz']
+[2023-01-05T09:50:58.301+0000] {standard_task_runner.py:83} INFO - Job 211: Subtask import_data
+[2023-01-05T09:50:58.389+0000] {task_command.py:389} INFO - Running <TaskInstance: import_full_database.import_data manual__2023-01-05T09:50:56.319736+00:00 [running]> on host d84d515babd0
+[2023-01-05T09:50:58.577+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=import_full_database
+AIRFLOW_CTX_TASK_ID=import_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-05T09:50:56.319736+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-05T09:50:56.319736+00:00
+[2023-01-05T09:51:03.166+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-05T09:51:03.182+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=import_full_database, task_id=import_data, execution_date=20230105T095056, start_date=20230105T095058, end_date=20230105T095103
+[2023-01-05T09:51:03.372+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-05T09:51:03.408+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

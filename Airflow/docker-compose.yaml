@@ -58,12 +58,13 @@ x-airflow-common:
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    _PIP_ADDITIONAL_REQUIREMENTS: 'vnstock wheel psycopg2 sqlalchemy'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ./data:/opt/airflow/data
+    - ./data/airflow:/opt/airflow/data
+    - ./script:/opt/airflow/script
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -109,6 +110,8 @@ services:
       environment:
           - PGADMIN_DEFAULT_EMAIL=dungpham.020901@gmail.com
           - PGADMIN_DEFAULT_PASSWORD=postgres
+      volumes:
+        - ./data/pgadmin4:/var/lib/pgadmin4
       ports:
           - "15432:80"
 
