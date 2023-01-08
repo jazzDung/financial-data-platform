@@ -74,7 +74,7 @@ with DAG(
     dag_id='cash_flow_v1',
     description='Import to cash flow table',
     start_date=pendulum.yesterday(),
-    schedule_interval='0 10 1 1-12/3 *',
+    schedule_interval='0 10 1 2-12/3 *',
     catchup=True
 ) as dag:
 
