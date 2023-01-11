@@ -35,7 +35,7 @@ def data_to_txt():
     ticker = str(ticker[:10])[1:-1]
 
     #Write to txt file
-    with open("/opt/airflow/data/ticker.txt", "w+") as outfile:
+    with open("/opt/airflow/data/ticker/ticker.txt", "w+") as outfile:
         outfile.write(ticker)
 
     #Noti!

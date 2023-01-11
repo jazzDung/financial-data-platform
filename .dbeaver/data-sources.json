@@ -16,6 +16,22 @@
 				"provider-properties": {},
 				"auth-model": "native"
 			}
+		},
+		"postgres-jdbc-1859465c48a-2c90804904d99df8": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"configuration": {
+				"host": "172.16.221.59",
+				"port": "5432",
+				"database": "financialDataPlatform",
+				"url": "jdbc:postgresql://172.16.221.59:5432/financialDataPlatform",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {

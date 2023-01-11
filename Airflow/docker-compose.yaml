@@ -58,7 +58,7 @@ x-airflow-common:
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
-    _PIP_ADDITIONAL_REQUIREMENTS: 'vnstock wheel psycopg2 sqlalchemy'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'vnstock wheel psycopg2 sqlalchemy flask flask-sqlalchemy gunicorn'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
@@ -74,6 +74,13 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  web-ui:
+    container_name: web-ui
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+
   postgres:
     image: postgres:13
     environment:
@@ -114,7 +121,6 @@ services:
         - ./data/pgadmin4:/var/lib/pgadmin4
       ports:
           - "15432:80"
-
 
   redis:
     image: redis:latest
