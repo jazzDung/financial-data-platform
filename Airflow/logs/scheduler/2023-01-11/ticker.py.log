@@ -1,0 +1,322 @@
+[2023-01-11T13:28:59.169+0000] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:28:59.170+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:28:59.170+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:28:59.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:29:02.624+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:29:09.142+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:09.141+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:09.738+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:09.738+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:29:10.876+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 11.709 seconds
+[2023-01-11T13:29:41.080+0000] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:29:41.102+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:29:41.103+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:41.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:29:42.376+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:29:42.407+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:42.406+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:42.439+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:42.439+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:29:42.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 1.514 seconds
+[2023-01-11T13:30:12.881+0000] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:12.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:30:12.928+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:12.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:13.171+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:13.207+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:13.206+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:13.235+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:13.234+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:30:13.272+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.394 seconds
+[2023-01-11T13:30:43.872+0000] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:43.994+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:30:43.995+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:43.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:44.290+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:30:44.323+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:44.322+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:44.348+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:44.348+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:30:44.396+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.526 seconds
+[2023-01-11T13:31:14.548+0000] {processor.py:153} INFO - Started process (PID=400) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:14.582+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:31:14.582+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:14.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:14.809+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:14.842+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:14.842+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:14.869+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:14.869+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:31:14.944+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.398 seconds
+[2023-01-11T13:31:45.062+0000] {processor.py:153} INFO - Started process (PID=488) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:45.075+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:31:45.075+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:45.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:45.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:31:45.364+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:45.363+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:45.389+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:45.388+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:31:45.443+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.384 seconds
+[2023-01-11T13:32:15.862+0000] {processor.py:153} INFO - Started process (PID=556) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:15.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:32:15.884+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:15.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:16.121+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:16.150+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:16.150+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:16.173+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:16.173+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:32:16.274+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.415 seconds
+[2023-01-11T13:32:46.806+0000] {processor.py:153} INFO - Started process (PID=644) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:46.831+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:32:46.832+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:46.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:47.166+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:32:47.200+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:47.200+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:47.227+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:47.227+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:32:47.322+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.518 seconds
+[2023-01-11T13:33:18.184+0000] {processor.py:153} INFO - Started process (PID=712) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:18.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:33:18.194+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:18.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:18.465+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:18.518+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:18.517+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:18.556+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:18.556+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:33:18.669+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.487 seconds
+[2023-01-11T13:33:49.622+0000] {processor.py:153} INFO - Started process (PID=800) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:49.637+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:33:49.637+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:49.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:49.906+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:33:49.941+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:49.940+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:49.967+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:49.967+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:33:50.016+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.397 seconds
+[2023-01-11T13:34:20.981+0000] {processor.py:153} INFO - Started process (PID=869) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:34:21.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:34:21.015+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:21.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:34:21.276+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:34:21.309+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:21.309+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:34:21.336+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:21.335+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:34:21.469+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.491 seconds
+[2023-01-11T13:36:33.384+0000] {processor.py:153} INFO - Started process (PID=75) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:36:33.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:36:33.406+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:33.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:36:33.873+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:36:33.994+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:33.993+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:36:34.037+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:34.037+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:36:34.093+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.714 seconds
+[2023-01-11T13:37:04.836+0000] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:04.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:37:04.855+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:04.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:05.105+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:05.135+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:05.134+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:05.161+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:05.160+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:37:05.370+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.536 seconds
+[2023-01-11T13:37:35.674+0000] {processor.py:153} INFO - Started process (PID=223) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:35.693+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:37:35.693+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:35.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:36.019+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:37:36.058+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:36.058+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:36.088+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:36.087+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:37:36.395+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.723 seconds
+[2023-01-11T13:38:06.575+0000] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:38:06.575+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:38:06.576+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:06.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:38:06.794+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:38:06.821+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:06.821+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:38:06.843+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:06.843+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:38:06.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.412 seconds
+[2023-01-11T13:40:05.687+0000] {processor.py:153} INFO - Started process (PID=66) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:05.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:40:05.731+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:05.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:06.031+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:06.117+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:06.116+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:06.145+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:06.145+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:40:06.214+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.530 seconds
+[2023-01-11T13:40:36.695+0000] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:36.695+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:40:36.696+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:36.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:36.949+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:40:36.984+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:36.983+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:37.010+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:37.010+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:40:37.061+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.369 seconds
+[2023-01-11T13:41:07.960+0000] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:07.996+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:41:07.996+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:07.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:08.236+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:08.268+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:08.267+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:08.295+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:08.295+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:41:08.406+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.448 seconds
+[2023-01-11T13:41:39.048+0000] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:39.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:41:39.049+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:39.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:39.305+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:41:39.340+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:39.340+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:39.368+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:39.368+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:41:39.427+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.382 seconds
+[2023-01-11T13:42:09.649+0000] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:09.681+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:42:09.682+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:09.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:09.915+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:09.946+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:09.946+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:09.972+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:09.971+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:42:10.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.406 seconds
+[2023-01-11T13:42:40.635+0000] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:40.636+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T13:42:40.636+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:40.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:40.891+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T13:42:40.924+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:40.924+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:40.949+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:40.949+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T13:42:41.031+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.398 seconds
+[2023-01-11T23:20:30.270+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:20:30.323+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:20:30.324+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:30.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:20:31.124+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:20:31.234+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:31.233+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:20:31.276+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:31.276+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:20:31.382+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 1.115 seconds
+[2023-01-11T23:21:01.570+0000] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:01.571+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:21:01.571+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:01.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:01.821+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:01.851+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:01.851+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:01.875+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:01.875+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:21:02.021+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.453 seconds
+[2023-01-11T23:21:32.071+0000] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:32.177+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:21:32.178+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:32.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:32.476+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:21:32.508+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:32.508+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:32.539+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:32.539+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:21:32.714+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.646 seconds
+[2023-01-11T23:22:02.954+0000] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:02.954+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:22:02.955+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:02.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:03.173+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:03.200+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:03.200+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:03.221+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:03.221+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:22:03.305+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.354 seconds
+[2023-01-11T23:22:34.089+0000] {processor.py:153} INFO - Started process (PID=417) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:34.145+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:22:34.146+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:34.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:34.404+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:22:34.436+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:34.436+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:34.463+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:34.463+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:22:34.503+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.416 seconds
+[2023-01-11T23:23:04.672+0000] {processor.py:153} INFO - Started process (PID=505) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:04.762+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:23:04.763+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:04.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:04.971+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:04.998+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:04.997+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:05.018+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:05.018+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:23:05.087+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.417 seconds
+[2023-01-11T23:23:35.360+0000] {processor.py:153} INFO - Started process (PID=573) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:35.366+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:23:35.366+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:35.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:35.589+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:23:35.618+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:35.617+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:35.640+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:35.639+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:23:35.701+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.343 seconds
+[2023-01-11T23:24:05.961+0000] {processor.py:153} INFO - Started process (PID=641) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:05.961+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:24:05.962+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:05.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:06.270+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:06.303+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:06.302+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:06.333+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:06.333+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:24:06.406+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.448 seconds
+[2023-01-11T23:24:36.469+0000] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:36.500+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:24:36.501+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:36.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:36.719+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:24:36.749+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:36.748+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:36.773+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:36.773+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:24:36.835+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.369 seconds
+[2023-01-11T23:25:07.645+0000] {processor.py:153} INFO - Started process (PID=797) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:07.646+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:25:07.646+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:07.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:07.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:07.919+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:07.918+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:07.945+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:07.945+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:25:08.010+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.367 seconds
+[2023-01-11T23:25:38.596+0000] {processor.py:153} INFO - Started process (PID=885) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:38.719+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:25:38.719+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:38.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:38.986+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:25:39.021+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:39.020+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:39.050+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:39.049+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:25:39.097+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.504 seconds
+[2023-01-11T23:26:09.829+0000] {processor.py:153} INFO - Started process (PID=953) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:09.830+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:26:09.830+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:09.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:10.067+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:10.096+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:10.095+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:10.118+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:10.118+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:26:10.299+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.473 seconds
+[2023-01-11T23:26:40.479+0000] {processor.py:153} INFO - Started process (PID=1041) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:40.502+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:26:40.502+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:40.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:40.788+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:26:40.821+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:40.820+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:40.849+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:40.849+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:26:40.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.425 seconds
+[2023-01-11T23:27:10.943+0000] {processor.py:153} INFO - Started process (PID=1109) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:10.944+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:27:10.944+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:10.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:11.190+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:11.225+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:11.224+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:11.254+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:11.254+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:27:11.313+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.372 seconds
+[2023-01-11T23:27:42.025+0000] {processor.py:153} INFO - Started process (PID=1184) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:42.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:27:42.049+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:42.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:42.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:27:42.361+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:42.361+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:42.385+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:42.385+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:27:42.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.573 seconds
+[2023-01-11T23:28:12.864+0000] {processor.py:153} INFO - Started process (PID=1265) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:12.865+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:28:12.866+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:12.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:13.090+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:13.118+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:13.118+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:13.141+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:13.141+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:28:13.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.515 seconds
+[2023-01-11T23:28:43.484+0000] {processor.py:153} INFO - Started process (PID=1333) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:43.526+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:28:43.526+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:43.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:43.765+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:28:43.796+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:43.795+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:43.819+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:43.819+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:28:43.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.474 seconds
+[2023-01-11T23:29:14.377+0000] {processor.py:153} INFO - Started process (PID=1421) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:14.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:29:14.378+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:14.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:14.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:14.686+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:14.685+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:14.712+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:14.712+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:29:14.795+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.421 seconds
+[2023-01-11T23:29:45.143+0000] {processor.py:153} INFO - Started process (PID=1489) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:45.246+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:29:45.247+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:45.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:45.610+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:29:45.645+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:45.645+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:45.671+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:45.671+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:29:45.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.609 seconds
+[2023-01-11T23:30:16.093+0000] {processor.py:153} INFO - Started process (PID=1557) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:16.093+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:30:16.094+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:16.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:16.347+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:16.376+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:16.375+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:16.397+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:16.397+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:30:16.478+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.388 seconds
+[2023-01-11T23:30:46.799+0000] {processor.py:153} INFO - Started process (PID=1645) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:46.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:30:46.837+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:46.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:47.096+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:30:47.129+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:47.128+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:47.156+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:47.156+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:30:47.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.550 seconds
+[2023-01-11T23:31:17.729+0000] {processor.py:153} INFO - Started process (PID=1714) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:17.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:31:17.730+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:17.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:17.978+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:18.011+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:18.010+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:18.046+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:18.046+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:31:18.088+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.361 seconds
+[2023-01-11T23:31:48.484+0000] {processor.py:153} INFO - Started process (PID=1802) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:48.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:31:48.506+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:48.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:48.730+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:31:48.760+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:48.759+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:48.783+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:48.782+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:31:48.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.342 seconds
+[2023-01-11T23:32:19.275+0000] {processor.py:153} INFO - Started process (PID=1870) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:19.276+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:32:19.276+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:19.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:19.602+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:19.640+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:19.639+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:19.670+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:19.670+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:32:19.736+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.464 seconds
+[2023-01-11T23:32:49.846+0000] {processor.py:153} INFO - Started process (PID=1958) to work on /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:49.858+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ticker.py for tasks to queue
+[2023-01-11T23:32:49.859+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:49.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:50.121+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ticker_list']) retrieved from /opt/airflow/dags/ticker.py
+[2023-01-11T23:32:50.155+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:50.155+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:50.181+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:50.181+0000] {dag.py:3427} INFO - Setting next_dagrun for ticker_list to 2023-01-10T09:00:00+00:00, run_after=2023-01-11T09:00:00+00:00
+[2023-01-11T23:32:50.226+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ticker.py took 0.383 seconds

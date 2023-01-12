@@ -1,0 +1,326 @@
+[2023-01-11T13:29:17.856+0000] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:17.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:29:17.857+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:17.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:18.116+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:18.390+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.390+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:industry_financial_health_v1
+[2023-01-11T13:29:18.528+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.528+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:industry_financial_health_v1
+[2023-01-11T13:29:18.611+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.610+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:industry_financial_health_v1
+[2023-01-11T13:29:18.611+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.611+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:18.622+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.621+0000] {dag.py:2697} INFO - Creating ORM DAG for industry_financial_health_v1
+[2023-01-11T13:29:18.631+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:18.631+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:29:18.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.856 seconds
+[2023-01-11T13:29:49.186+0000] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:49.187+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:29:49.189+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:49.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:49.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:29:49.712+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:49.711+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:49.765+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:49.765+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:29:49.821+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.639 seconds
+[2023-01-11T13:30:20.686+0000] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:20.690+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:30:20.690+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:20.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:20.932+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:20.967+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:20.966+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:20.997+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:20.997+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:30:21.048+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.364 seconds
+[2023-01-11T13:30:51.879+0000] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:51.880+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:30:51.881+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:51.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:52.247+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:30:52.278+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:52.278+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:52.303+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:52.303+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:30:52.375+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.499 seconds
+[2023-01-11T13:31:22.819+0000] {processor.py:153} INFO - Started process (PID=430) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:22.828+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:31:22.829+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:22.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:23.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:23.106+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:23.105+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:23.132+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:23.132+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:31:23.201+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.385 seconds
+[2023-01-11T13:31:53.272+0000] {processor.py:153} INFO - Started process (PID=498) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:53.273+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:31:53.274+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:53.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:53.544+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:31:53.578+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:53.578+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:53.606+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:53.606+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:31:53.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.406 seconds
+[2023-01-11T13:32:23.837+0000] {processor.py:153} INFO - Started process (PID=584) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:23.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:32:23.904+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:23.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:24.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:24.194+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:24.193+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:24.225+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:24.225+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:32:24.275+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.441 seconds
+[2023-01-11T13:32:54.776+0000] {processor.py:153} INFO - Started process (PID=652) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:54.793+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:32:54.794+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:54.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:55.036+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:32:55.067+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:55.067+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:55.092+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:55.091+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:32:55.190+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.417 seconds
+[2023-01-11T13:33:26.146+0000] {processor.py:153} INFO - Started process (PID=740) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:26.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:33:26.209+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:26.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:26.495+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:26.530+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:26.530+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:26.556+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:26.556+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:33:26.767+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.624 seconds
+[2023-01-11T13:33:57.481+0000] {processor.py:153} INFO - Started process (PID=808) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:57.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:33:57.482+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:57.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:57.888+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:33:57.924+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:57.924+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:57.951+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:57.951+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:33:58.024+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.547 seconds
+[2023-01-11T13:34:28.398+0000] {processor.py:153} INFO - Started process (PID=897) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:34:28.399+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:34:28.400+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:28.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:34:28.680+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:34:28.712+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:28.712+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:34:28.742+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:28.742+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:34:28.825+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.430 seconds
+[2023-01-11T13:36:34.732+0000] {processor.py:153} INFO - Started process (PID=94) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:36:34.743+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:36:34.744+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:34.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:36:35.028+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:36:35.153+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:35.152+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:36:35.180+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:35.180+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:36:35.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.562 seconds
+[2023-01-11T13:37:05.828+0000] {processor.py:153} INFO - Started process (PID=162) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:05.850+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:37:05.851+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:05.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:06.104+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:06.134+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:06.134+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:06.163+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:06.163+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:37:06.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.381 seconds
+[2023-01-11T13:37:36.867+0000] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:36.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:37:36.892+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:36.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:37.234+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:37:37.278+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:37.277+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:37.319+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:37.319+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:37:37.523+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.659 seconds
+[2023-01-11T13:38:07.638+0000] {processor.py:153} INFO - Started process (PID=316) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:38:07.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:38:07.639+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:07.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:38:07.916+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:38:07.948+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:07.947+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:38:07.970+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:07.970+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:38:08.062+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.426 seconds
+[2023-01-11T13:40:06.848+0000] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:06.877+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:40:06.878+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:06.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:07.235+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:07.314+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:07.313+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:07.340+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:07.340+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:40:07.403+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.558 seconds
+[2023-01-11T13:40:37.535+0000] {processor.py:153} INFO - Started process (PID=142) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:37.537+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:40:37.538+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:37.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:37.849+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:40:37.894+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:37.893+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:37.939+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:37.939+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:40:38.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.489 seconds
+[2023-01-11T13:41:08.903+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:08.939+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:41:08.939+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:08.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:09.208+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:09.246+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:09.246+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:09.279+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:09.279+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:41:09.325+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.424 seconds
+[2023-01-11T13:41:39.908+0000] {processor.py:153} INFO - Started process (PID=298) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:40.007+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:41:40.007+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:40.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:40.366+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:41:40.419+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:40.419+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:40.464+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:40.464+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:41:40.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.609 seconds
+[2023-01-11T13:42:11.442+0000] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:11.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:42:11.446+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:11.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:11.718+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:11.757+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:11.757+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:11.794+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:11.794+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:42:11.841+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.401 seconds
+[2023-01-11T13:42:42.427+0000] {processor.py:153} INFO - Started process (PID=454) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:42.427+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T13:42:42.428+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:42.428+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:42.712+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T13:42:42.744+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:42.743+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:42.769+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:42.769+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:42:42.879+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.454 seconds
+[2023-01-11T23:20:32.208+0000] {processor.py:153} INFO - Started process (PID=132) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:20:32.269+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:20:32.270+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:32.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:20:32.622+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:20:32.735+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:32.735+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:20:32.765+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:32.765+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:20:33.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 1.053 seconds
+[2023-01-11T23:21:03.562+0000] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:03.563+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:21:03.563+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:03.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:03.969+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:04.023+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:04.022+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:04.057+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:04.057+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:21:04.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.649 seconds
+[2023-01-11T23:21:34.300+0000] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:34.588+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:21:34.772+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:34.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:35.011+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:21:35.045+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:35.044+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:35.069+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:35.069+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:21:35.236+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.939 seconds
+[2023-01-11T23:22:05.333+0000] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:05.333+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:22:05.334+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:05.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:05.557+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:05.585+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:05.584+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:05.606+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:05.605+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:22:05.650+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.319 seconds
+[2023-01-11T23:22:36.198+0000] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:36.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:22:36.223+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:36.223+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:36.487+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:22:36.519+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:36.518+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:36.544+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:36.544+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:22:36.874+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.678 seconds
+[2023-01-11T23:23:06.931+0000] {processor.py:153} INFO - Started process (PID=513) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:07.074+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:23:07.074+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:07.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:07.299+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:07.330+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:07.330+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:07.354+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:07.353+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:23:07.396+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.468 seconds
+[2023-01-11T23:23:37.779+0000] {processor.py:153} INFO - Started process (PID=580) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:37.803+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:23:37.803+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:37.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:38.117+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:23:38.147+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:38.147+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:38.172+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:38.172+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:23:38.239+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.463 seconds
+[2023-01-11T23:24:08.631+0000] {processor.py:153} INFO - Started process (PID=668) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:08.665+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:24:08.666+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:08.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:08.974+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:09.007+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:09.007+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:09.033+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:09.033+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:24:09.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.451 seconds
+[2023-01-11T23:24:39.337+0000] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:39.374+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:24:39.375+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:39.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:39.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:24:39.677+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:39.676+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:39.699+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:39.699+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:24:39.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.406 seconds
+[2023-01-11T23:25:10.230+0000] {processor.py:153} INFO - Started process (PID=824) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:10.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:25:10.306+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:10.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:10.580+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:10.625+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:10.624+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:10.659+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:10.659+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:25:10.736+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.508 seconds
+[2023-01-11T23:25:41.107+0000] {processor.py:153} INFO - Started process (PID=892) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:41.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:25:41.239+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:41.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:41.524+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:25:41.556+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:41.555+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:41.582+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:41.582+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:25:41.648+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.543 seconds
+[2023-01-11T23:26:11.735+0000] {processor.py:153} INFO - Started process (PID=959) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:11.736+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:26:11.736+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:11.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:11.990+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:12.024+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:12.024+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:12.056+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:12.056+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:26:12.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.525 seconds
+[2023-01-11T23:26:42.324+0000] {processor.py:153} INFO - Started process (PID=1047) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:42.348+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:26:42.349+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:42.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:42.623+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:26:42.656+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:42.656+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:42.687+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:42.687+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:26:42.733+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.411 seconds
+[2023-01-11T23:27:13.070+0000] {processor.py:153} INFO - Started process (PID=1115) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:13.092+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:27:13.093+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:13.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:13.326+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:13.354+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:13.354+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:13.378+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:13.378+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:27:13.504+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.437 seconds
+[2023-01-11T23:27:43.634+0000] {processor.py:153} INFO - Started process (PID=1203) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:43.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:27:43.863+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:43.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:44.191+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:27:44.230+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:44.229+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:44.266+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:44.266+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:27:44.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.777 seconds
+[2023-01-11T23:28:14.840+0000] {processor.py:153} INFO - Started process (PID=1271) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:14.870+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:28:14.871+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:14.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:15.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:15.155+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:15.155+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:15.183+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:15.183+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:28:15.270+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.433 seconds
+[2023-01-11T23:28:45.430+0000] {processor.py:153} INFO - Started process (PID=1339) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:45.430+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:28:45.431+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:45.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:45.687+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:28:45.718+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:45.718+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:45.742+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:45.742+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:28:45.787+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.360 seconds
+[2023-01-11T23:29:15.821+0000] {processor.py:153} INFO - Started process (PID=1427) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:15.850+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:29:15.850+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:15.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:16.075+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:16.102+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:16.102+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:16.123+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:16.123+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:29:16.164+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.346 seconds
+[2023-01-11T23:29:46.462+0000] {processor.py:153} INFO - Started process (PID=1495) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:46.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:29:46.464+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:46.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:46.792+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:29:46.824+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:46.824+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:46.856+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:46.856+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:29:46.926+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.469 seconds
+[2023-01-11T23:30:17.505+0000] {processor.py:153} INFO - Started process (PID=1572) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:17.506+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:30:17.506+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:17.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:17.819+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:17.852+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:17.852+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:17.878+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:17.878+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:30:17.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.429 seconds
+[2023-01-11T23:30:48.429+0000] {processor.py:153} INFO - Started process (PID=1651) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:48.479+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:30:48.479+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:48.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:48.807+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:30:48.840+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:48.839+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:48.872+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:48.872+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:30:48.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.501 seconds
+[2023-01-11T23:31:19.140+0000] {processor.py:153} INFO - Started process (PID=1720) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:19.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:31:19.141+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:19.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:19.405+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:19.437+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:19.436+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:19.460+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:19.460+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:31:19.563+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.425 seconds
+[2023-01-11T23:31:49.876+0000] {processor.py:153} INFO - Started process (PID=1808) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:50.068+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:31:50.069+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:50.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:50.306+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:31:50.335+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:50.335+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:50.357+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:50.357+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:31:50.442+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.568 seconds
+[2023-01-11T23:32:20.761+0000] {processor.py:153} INFO - Started process (PID=1876) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:20.803+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:32:20.803+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:20.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:21.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:21.074+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:21.074+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:21.099+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:21.099+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:32:21.142+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.384 seconds
+[2023-01-11T23:32:51.304+0000] {processor.py:153} INFO - Started process (PID=1964) to work on /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:51.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/industry_financial_health.py for tasks to queue
+[2023-01-11T23:32:51.305+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:51.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:51.591+0000] {processor.py:753} INFO - DAG(s) dict_keys(['industry_financial_health_v1']) retrieved from /opt/airflow/dags/industry_financial_health.py
+[2023-01-11T23:32:51.623+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:51.623+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:51.648+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:51.648+0000] {dag.py:3427} INFO - Setting next_dagrun for industry_financial_health_v1 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:32:51.838+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/industry_financial_health.py took 0.537 seconds

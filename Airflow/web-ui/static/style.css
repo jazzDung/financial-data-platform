@@ -1,8 +1,65 @@
 input[type=text] {
-    border: 2px solid red;
+    border: 2px solid steelblue;
     border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+input:focus {
+    border: 2px solid pink;
+    outline: 2px pink;
+}
+
+
+.buttons {
+    width: 100px;
+    margin: 10 auto;
+    padding: 100 auto;
+    display: inline;}
+    
+.action_btn {
+    width: 200px;
+    margin: 10 auto;
+    padding: 100 auto;
+    display: inline;}
+
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    }
+    
+    thead th,
+    tfoot th {
+    font-family: "helvetica";
+    font-style: bold;
+    text-align: center;
+    }
+    
+    th {
+    letter-spacing: 2px;
+    }
+    
+    td {
+    letter-spacing: 1px;
+    }
+    
+    tbody td {
+    text-align: center;
+    }
+    
+    tfoot th {
+    text-align: right;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid steelblue;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+  }

@@ -1,0 +1,326 @@
+[2023-01-11T13:29:20.567+0000] {processor.py:153} INFO - Started process (PID=137) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:20.567+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:29:20.568+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:20.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:20.834+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:21.275+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.275+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:business_model_rating_v2
+[2023-01-11T13:29:21.424+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.424+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:business_model_rating_v2
+[2023-01-11T13:29:21.655+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.654+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:business_model_rating_v2
+[2023-01-11T13:29:21.656+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.655+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:21.688+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.687+0000] {dag.py:2697} INFO - Creating ORM DAG for business_model_rating_v2
+[2023-01-11T13:29:21.716+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:21.716+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:29:21.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 1.421 seconds
+[2023-01-11T13:29:52.395+0000] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:52.396+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:29:52.396+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:52.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:52.676+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:29:52.711+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:52.710+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:29:52.735+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:29:52.735+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:29:52.806+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.414 seconds
+[2023-01-11T13:30:23.382+0000] {processor.py:153} INFO - Started process (PID=287) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:23.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:30:23.384+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:23.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:23.686+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:23.725+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:23.724+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:23.749+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:23.749+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:30:23.817+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.437 seconds
+[2023-01-11T13:30:54.016+0000] {processor.py:153} INFO - Started process (PID=375) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:54.019+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:30:54.020+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:54.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:54.362+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:30:54.406+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:54.405+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:30:54.437+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:30:54.437+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:30:54.485+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.471 seconds
+[2023-01-11T13:31:24.984+0000] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:24.985+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:31:24.986+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:24.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:25.235+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:25.267+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:25.267+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:25.292+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:25.292+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:31:25.345+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.363 seconds
+[2023-01-11T13:31:55.785+0000] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:55.786+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:31:55.787+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:55.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:56.072+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:31:56.108+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:56.108+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:31:56.143+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:31:56.143+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:31:56.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.416 seconds
+[2023-01-11T13:32:26.384+0000] {processor.py:153} INFO - Started process (PID=600) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:26.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:32:26.385+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:26.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:26.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:26.639+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:26.638+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:26.661+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:26.661+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:32:26.716+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.334 seconds
+[2023-01-11T13:32:57.675+0000] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:57.676+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:32:57.676+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:57.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:58.017+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:32:58.059+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:58.058+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:32:58.103+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:32:58.102+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:32:58.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.481 seconds
+[2023-01-11T13:33:28.207+0000] {processor.py:153} INFO - Started process (PID=757) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:28.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:33:28.208+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:28.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:28.435+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:28.465+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:28.465+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:28.489+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:28.489+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:33:28.525+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.320 seconds
+[2023-01-11T13:33:59.465+0000] {processor.py:153} INFO - Started process (PID=824) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:59.468+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:33:59.469+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:59.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:59.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:33:59.793+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:59.793+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:33:59.821+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:33:59.820+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:33:59.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.421 seconds
+[2023-01-11T13:34:29.988+0000] {processor.py:153} INFO - Started process (PID=913) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:34:29.989+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:34:29.989+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:29.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:34:30.257+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:34:30.287+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:30.287+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:34:30.312+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:34:30.312+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:34:30.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.366 seconds
+[2023-01-11T13:36:37.178+0000] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:36:37.193+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:36:37.195+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:37.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:36:37.557+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:36:37.638+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:37.638+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:36:37.665+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:36:37.665+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:36:37.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.535 seconds
+[2023-01-11T13:37:08.669+0000] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:08.678+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:37:08.679+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:08.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:09.101+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:09.144+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:09.143+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:09.177+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:09.177+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:37:09.228+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.562 seconds
+[2023-01-11T13:37:39.445+0000] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:39.446+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:37:39.446+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:39.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:39.710+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:37:39.739+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:39.739+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:37:39.764+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:37:39.764+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:37:39.913+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.471 seconds
+[2023-01-11T13:38:10.639+0000] {processor.py:153} INFO - Started process (PID=332) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:38:10.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:38:10.640+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:10.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:38:10.859+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:38:10.888+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:10.888+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:38:10.911+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:38:10.911+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:38:10.981+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.344 seconds
+[2023-01-11T13:40:09.083+0000] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:09.083+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:40:09.084+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:09.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:09.402+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:09.475+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:09.475+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:09.503+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:09.503+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:40:09.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.490 seconds
+[2023-01-11T13:40:40.498+0000] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:40.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:40:40.499+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:40.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:40.749+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:40:40.777+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:40.776+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:40:40.800+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:40:40.800+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:40:40.836+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.340 seconds
+[2023-01-11T13:41:11.546+0000] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:11.571+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:41:11.571+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:11.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:11.813+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:11.842+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:11.841+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:11.863+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:11.863+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:41:11.937+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.393 seconds
+[2023-01-11T13:41:43.098+0000] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:43.123+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:41:43.124+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:43.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:43.439+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:41:43.489+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:43.488+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:41:43.531+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:41:43.531+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:41:43.647+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.552 seconds
+[2023-01-11T13:42:14.087+0000] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:14.105+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:42:14.106+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:14.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:14.389+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:14.431+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:14.430+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:14.468+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:14.467+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:42:14.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.430 seconds
+[2023-01-11T13:42:45.379+0000] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:45.394+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T13:42:45.394+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:45.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:45.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T13:42:45.738+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:45.737+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T13:42:45.786+0000] {logging_mixin.py:137} INFO - [2023-01-11T13:42:45.786+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T13:42:45.839+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.464 seconds
+[2023-01-11T23:20:35.345+0000] {processor.py:153} INFO - Started process (PID=148) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:20:35.380+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:20:35.380+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:35.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:20:35.671+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:20:35.767+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:35.766+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:20:35.802+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:20:35.801+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:20:36.450+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 1.108 seconds
+[2023-01-11T23:21:06.678+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:06.679+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:21:06.679+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:06.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:07.184+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:07.225+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:07.224+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:07.271+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:07.271+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:21:07.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.752 seconds
+[2023-01-11T23:21:38.144+0000] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:38.222+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:21:38.223+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:38.223+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:38.531+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:21:38.597+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:38.596+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:21:38.626+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:21:38.626+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:21:38.854+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.714 seconds
+[2023-01-11T23:22:09.584+0000] {processor.py:153} INFO - Started process (PID=373) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:09.585+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:22:09.586+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:09.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:09.868+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:09.906+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:09.905+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:09.934+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:09.934+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:22:09.983+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.402 seconds
+[2023-01-11T23:22:40.154+0000] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:40.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:22:40.187+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:40.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:40.427+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:22:40.458+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:40.457+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:22:40.480+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:22:40.480+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:22:40.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.418 seconds
+[2023-01-11T23:23:10.789+0000] {processor.py:153} INFO - Started process (PID=529) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:10.844+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:23:10.845+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:10.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:11.105+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:11.148+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:11.147+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:11.188+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:11.188+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:23:11.276+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.490 seconds
+[2023-01-11T23:23:41.363+0000] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:41.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:23:41.365+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:41.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:41.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:23:41.720+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:41.719+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:23:41.746+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:23:41.746+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:23:41.847+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.487 seconds
+[2023-01-11T23:24:11.926+0000] {processor.py:153} INFO - Started process (PID=685) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:11.980+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:24:11.981+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:11.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:12.258+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:12.293+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:12.292+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:12.323+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:12.323+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:24:12.383+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.460 seconds
+[2023-01-11T23:24:42.828+0000] {processor.py:153} INFO - Started process (PID=753) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:42.829+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:24:42.830+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:42.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:43.153+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:24:43.186+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:43.186+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:24:43.212+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:24:43.212+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:24:43.528+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.704 seconds
+[2023-01-11T23:25:13.939+0000] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:14.050+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:25:14.050+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:14.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:14.325+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:14.393+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:14.392+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:14.422+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:14.422+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:25:14.492+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.555 seconds
+[2023-01-11T23:25:45.088+0000] {processor.py:153} INFO - Started process (PID=909) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:45.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:25:45.090+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:45.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:45.417+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:25:45.456+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:45.456+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:25:45.488+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:25:45.488+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:25:45.713+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.629 seconds
+[2023-01-11T23:26:16.058+0000] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:16.059+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:26:16.060+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:16.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:16.404+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:16.448+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:16.448+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:16.485+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:16.485+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:26:16.907+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.851 seconds
+[2023-01-11T23:26:47.317+0000] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:47.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:26:47.481+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:47.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:47.739+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:26:47.777+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:47.776+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:26:47.804+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:26:47.803+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:26:47.843+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.528 seconds
+[2023-01-11T23:27:17.928+0000] {processor.py:153} INFO - Started process (PID=1153) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:17.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:27:17.971+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:17.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:18.271+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:18.332+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:18.330+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:18.383+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:18.383+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:27:18.466+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.542 seconds
+[2023-01-11T23:27:48.837+0000] {processor.py:153} INFO - Started process (PID=1220) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:48.879+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:27:48.880+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:48.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:49.127+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:27:49.159+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:49.158+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:27:49.184+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:27:49.184+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:27:49.704+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.869 seconds
+[2023-01-11T23:28:19.892+0000] {processor.py:153} INFO - Started process (PID=1288) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:19.920+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:28:19.921+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:19.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:20.168+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:20.198+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:20.197+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:20.220+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:20.220+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:28:20.375+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.485 seconds
+[2023-01-11T23:28:50.872+0000] {processor.py:153} INFO - Started process (PID=1376) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:50.872+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:28:50.873+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:50.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:51.114+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:28:51.148+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:51.148+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:28:51.177+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:28:51.177+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:28:51.252+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.383 seconds
+[2023-01-11T23:29:21.581+0000] {processor.py:153} INFO - Started process (PID=1444) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:21.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:29:21.616+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:21.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:21.889+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:21.925+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:21.925+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:21.955+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:21.954+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:29:22.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.439 seconds
+[2023-01-11T23:29:52.659+0000] {processor.py:153} INFO - Started process (PID=1532) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:52.659+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:29:52.660+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:52.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:52.905+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:29:52.936+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:52.936+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:29:52.961+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:29:52.961+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:29:53.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.347 seconds
+[2023-01-11T23:30:23.697+0000] {processor.py:153} INFO - Started process (PID=1600) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:23.714+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:30:23.715+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:23.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:24.051+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:24.087+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:24.086+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:24.112+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:24.112+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:30:24.212+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.518 seconds
+[2023-01-11T23:30:54.649+0000] {processor.py:153} INFO - Started process (PID=1668) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:54.649+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:30:54.650+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:54.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:54.951+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:30:54.986+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:54.986+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:30:55.013+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:30:55.013+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:30:55.095+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.449 seconds
+[2023-01-11T23:31:25.895+0000] {processor.py:153} INFO - Started process (PID=1757) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:25.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:31:25.944+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:25.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:26.285+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:26.319+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:26.318+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:26.346+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:26.346+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:31:26.384+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.491 seconds
+[2023-01-11T23:31:56.643+0000] {processor.py:153} INFO - Started process (PID=1825) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:56.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:31:56.644+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:56.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:56.905+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:31:56.937+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:56.937+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:31:56.965+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:31:56.964+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:31:57.153+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.513 seconds
+[2023-01-11T23:32:27.731+0000] {processor.py:153} INFO - Started process (PID=1914) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:27.767+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:32:27.768+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:27.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:28.009+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:28.039+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:28.038+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:28.064+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:28.064+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:32:28.214+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.485 seconds
+[2023-01-11T23:32:58.515+0000] {processor.py:153} INFO - Started process (PID=1982) to work on /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:58.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/business_model_rating.py for tasks to queue
+[2023-01-11T23:32:58.516+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:58.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:58.869+0000] {processor.py:753} INFO - DAG(s) dict_keys(['business_model_rating_v2']) retrieved from /opt/airflow/dags/business_model_rating.py
+[2023-01-11T23:32:58.902+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:58.901+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-11T23:32:58.928+0000] {logging_mixin.py:137} INFO - [2023-01-11T23:32:58.927+0000] {dag.py:3427} INFO - Setting next_dagrun for business_model_rating_v2 to 2023-02-01T10:00:00+00:00, run_after=2023-05-01T10:00:00+00:00
+[2023-01-11T23:32:58.997+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/business_model_rating.py took 0.485 seconds

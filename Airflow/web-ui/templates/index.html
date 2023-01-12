@@ -4,22 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style.css"
+    <link rel="stylesheet" href="./static/style.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Rock+Salt"
+        rel="stylesheet"
+        type="text/css" />
     <title>Financial Data Platform DAG generator</title>
 </head>
 <body>
     <div class="container">
+        {% if message %}
+            <p class="message">{{ message | safe}}</p>
+        {% endif %}
         <form action="/submit" method="POST">
 
             <div class="equation-group">
                 <h3>Equation</h3>
                 <input
                     type="text"
+                    name="equation_name"
+                    placeholder="Enter equation name"
+                />  
+                <input
+                    type="text"
                     name="equation"
                     placeholder="Enter equation"
                 />  
+                
             </div>
             
+            <div class="query-group">
+                <h3>Query</h3>
+                <input
+                    type="text"
+                    name="query"
+                    placeholder="SELECT * FROM cash_flow LIMIT 10;"
+                />  
+            </div>
+
             <input type="submit" value="Submit" class="btn" />
         </form>
     </div>
