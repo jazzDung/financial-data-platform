@@ -1,0 +1,25 @@
+[2023-01-17T13:59:06.089+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v6.greet manual__2023-01-17T13:56:43.287014+00:00 [queued]>
+[2023-01-17T13:59:06.123+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_dag_v6.greet manual__2023-01-17T13:56:43.287014+00:00 [queued]>
+[2023-01-17T13:59:06.124+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T13:59:06.125+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-01-17T13:59:06.125+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T13:59:06.173+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): greet> on 2023-01-17 13:56:43.287014+00:00
+[2023-01-17T13:59:06.183+0000] {standard_task_runner.py:54} INFO - Started process 21 to run task
+[2023-01-17T13:59:06.195+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator_dag_v6', 'greet', 'manual__2023-01-17T13:56:43.287014+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/python_operator_dag.py', '--cfg-path', '/tmp/tmpbl51mxou']
+[2023-01-17T13:59:06.198+0000] {standard_task_runner.py:83} INFO - Job 22: Subtask greet
+[2023-01-17T13:59:06.201+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/python_operator_dag.py
+[2023-01-17T13:59:11.530+0000] {task_command.py:384} INFO - Running <TaskInstance: python_operator_dag_v6.greet manual__2023-01-17T13:56:43.287014+00:00 [running]> on host pythonoperatordagv6greet-69e6236bedfb484e91da22b5c8894818
+[2023-01-17T13:59:14.811+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_operator_dag_v6
+AIRFLOW_CTX_TASK_ID=greet
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-17T13:56:43.287014+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-17T13:56:43.287014+00:00
+[2023-01-17T13:59:14.891+0000] {logging_mixin.py:117} INFO - Hello World! My name is Dung jazz, and I am 21 years old!
+[2023-01-17T13:59:14.892+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-17T13:59:14.926+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=python_operator_dag_v6, task_id=greet, execution_date=20230117T135643, start_date=20230117T135906, end_date=20230117T135914
+[2023-01-17T13:59:15.032+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-01-17T13:59:15.078+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

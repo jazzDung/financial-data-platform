@@ -1,0 +1,277 @@
+[2023-01-17T13:46:35.781+0000] {processor.py:156} INFO - Started process (PID=15353) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:46:35.783+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:46:35.785+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:35.785+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:46:35.909+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:46:36.246+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.246+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:postgres_quarterly_dag
+[2023-01-17T13:46:36.280+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.280+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:postgres_quarterly_dag
+[2023-01-17T13:46:36.303+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.303+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:postgres_quarterly_dag
+[2023-01-17T13:46:36.305+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.304+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:46:36.346+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.346+0000] {dag.py:2594} INFO - Creating ORM DAG for postgres_quarterly_dag
+[2023-01-17T13:46:36.380+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:46:36.380+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:46:36.430+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.657 seconds
+[2023-01-17T13:47:07.267+0000] {processor.py:156} INFO - Started process (PID=15397) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:07.269+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:47:07.272+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:07.271+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:07.392+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:12.529+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:12.528+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:47:12.635+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:12.634+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:47:12.712+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.456 seconds
+[2023-01-17T13:47:43.586+0000] {processor.py:156} INFO - Started process (PID=15441) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:43.588+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:47:43.590+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:43.590+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:43.743+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:47:48.889+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:48.888+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:47:48.980+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:47:48.979+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:47:49.048+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.472 seconds
+[2023-01-17T13:48:19.649+0000] {processor.py:156} INFO - Started process (PID=15496) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:19.651+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:48:19.654+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:19.653+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:19.785+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:19.925+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:19.924+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:48:20.004+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:20.004+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:48:20.061+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.420 seconds
+[2023-01-17T13:48:50.256+0000] {processor.py:156} INFO - Started process (PID=15532) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:50.258+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:48:50.260+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:50.260+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:50.363+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:48:50.468+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:50.468+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:48:50.542+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:48:50.542+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:48:50.602+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.357 seconds
+[2023-01-17T13:49:21.185+0000] {processor.py:156} INFO - Started process (PID=15580) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:21.188+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:49:21.191+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:21.190+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:21.294+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:21.406+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:21.406+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:49:21.477+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:21.476+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:49:21.559+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.385 seconds
+[2023-01-17T13:49:51.748+0000] {processor.py:156} INFO - Started process (PID=15613) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:51.752+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:49:51.755+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:51.754+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:51.895+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:49:52.023+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:52.022+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:49:52.111+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:49:52.111+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:49:52.184+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.450 seconds
+[2023-01-17T13:50:22.280+0000] {processor.py:156} INFO - Started process (PID=15656) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:22.283+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:50:22.289+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:22.288+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:22.386+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:22.499+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:22.498+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:50:22.578+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:22.577+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:50:22.646+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.375 seconds
+[2023-01-17T13:50:53.385+0000] {processor.py:156} INFO - Started process (PID=15689) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:53.388+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:50:53.391+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:53.391+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:53.523+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:50:58.659+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:58.658+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:50:58.748+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:50:58.747+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:50:58.813+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.438 seconds
+[2023-01-17T13:51:29.222+0000] {processor.py:156} INFO - Started process (PID=15740) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:51:29.225+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:51:29.227+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:51:29.226+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:51:29.348+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:51:34.479+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:51:34.478+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:51:34.602+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:51:34.601+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:51:34.683+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.490 seconds
+[2023-01-17T13:52:04.841+0000] {processor.py:156} INFO - Started process (PID=15789) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:04.844+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:52:04.846+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:04.846+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:04.950+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:05.063+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:05.063+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:52:05.140+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:05.140+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:52:05.205+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.373 seconds
+[2023-01-17T13:52:35.931+0000] {processor.py:156} INFO - Started process (PID=15825) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:35.933+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:52:35.936+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:35.935+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:36.039+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:52:36.154+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:36.153+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:52:36.225+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:52:36.225+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:52:36.285+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.365 seconds
+[2023-01-17T13:53:07.112+0000] {processor.py:156} INFO - Started process (PID=15873) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:07.115+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:53:07.123+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:07.122+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:07.281+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:07.399+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:07.399+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:53:07.499+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:07.499+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:53:07.585+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.485 seconds
+[2023-01-17T13:53:37.970+0000] {processor.py:156} INFO - Started process (PID=15909) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:37.972+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:53:37.974+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:37.973+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:38.080+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:53:43.196+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:43.196+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:53:43.288+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:53:43.287+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:53:43.356+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.395 seconds
+[2023-01-17T13:54:13.541+0000] {processor.py:156} INFO - Started process (PID=15962) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:13.544+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:54:13.546+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:13.545+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:13.637+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:13.739+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:13.738+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:54:13.811+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:13.811+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:54:13.863+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.330 seconds
+[2023-01-17T13:54:44.026+0000] {processor.py:156} INFO - Started process (PID=15993) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:44.028+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:54:44.031+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:44.030+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:44.138+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:54:44.269+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:44.269+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:54:44.360+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:54:44.359+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:54:44.429+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.412 seconds
+[2023-01-17T13:55:14.544+0000] {processor.py:156} INFO - Started process (PID=16042) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:14.547+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:55:14.549+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:14.548+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:14.644+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:14.757+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:14.757+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:55:14.826+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:14.825+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:55:14.882+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.347 seconds
+[2023-01-17T13:55:45.155+0000] {processor.py:156} INFO - Started process (PID=16078) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:45.157+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:55:45.159+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:45.159+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:45.250+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:55:45.354+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:45.354+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:55:45.436+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:55:45.436+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:55:45.491+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.344 seconds
+[2023-01-17T13:56:15.839+0000] {processor.py:156} INFO - Started process (PID=16126) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:15.841+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:56:15.842+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:15.842+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:15.934+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:16.033+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:16.032+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:56:16.103+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:16.103+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:56:16.160+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.331 seconds
+[2023-01-17T13:56:46.661+0000] {processor.py:156} INFO - Started process (PID=16162) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:46.663+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:56:46.666+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:46.665+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:46.790+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:56:46.925+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:46.925+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:56:47.027+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:56:47.026+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:56:47.091+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.439 seconds
+[2023-01-17T13:57:17.506+0000] {processor.py:156} INFO - Started process (PID=16207) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:17.507+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:57:17.509+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:17.509+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:17.617+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:17.743+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:17.742+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:57:17.829+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:17.828+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:57:17.887+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.389 seconds
+[2023-01-17T13:57:48.322+0000] {processor.py:156} INFO - Started process (PID=16239) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:48.325+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:57:48.327+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:48.327+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:48.449+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:57:48.578+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:48.577+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:57:48.656+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:57:48.656+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:57:48.715+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.409 seconds
+[2023-01-17T13:58:18.844+0000] {processor.py:156} INFO - Started process (PID=16287) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:18.846+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:58:18.848+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:18.848+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:18.978+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:19.129+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:19.129+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:58:19.226+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:19.225+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:58:19.301+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.466 seconds
+[2023-01-17T13:58:50.065+0000] {processor.py:156} INFO - Started process (PID=16323) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:50.071+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:58:50.074+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:50.073+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:50.196+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:58:50.318+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:50.317+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:58:50.391+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:58:50.391+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:58:50.453+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.399 seconds
+[2023-01-17T13:59:21.458+0000] {processor.py:156} INFO - Started process (PID=16371) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:21.460+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:59:21.461+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:21.461+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:21.560+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:21.659+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:21.658+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:59:21.726+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:21.726+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:59:21.782+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.332 seconds
+[2023-01-17T13:59:52.528+0000] {processor.py:156} INFO - Started process (PID=16407) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:52.530+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T13:59:52.532+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:52.532+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:52.636+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T13:59:52.751+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:52.750+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:59:52.851+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:59:52.851+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T13:59:52.914+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.394 seconds
+[2023-01-17T14:00:23.277+0000] {processor.py:156} INFO - Started process (PID=16455) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:23.279+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:00:23.282+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:23.281+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:23.399+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:23.503+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:23.503+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:00:23.582+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:23.582+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:00:23.641+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.374 seconds
+[2023-01-17T14:00:54.111+0000] {processor.py:156} INFO - Started process (PID=16491) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:54.114+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:00:54.116+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:54.115+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:54.220+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:00:54.348+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:54.347+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:00:54.421+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:00:54.420+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:00:54.480+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.378 seconds
+[2023-01-17T14:01:24.706+0000] {processor.py:156} INFO - Started process (PID=16539) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:01:24.710+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:01:24.711+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:01:24.711+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:01:24.812+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:01:24.931+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:01:24.930+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:01:25.002+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:01:25.002+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:01:25.067+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.373 seconds
+[2023-01-17T14:01:55.386+0000] {processor.py:156} INFO - Started process (PID=16572) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:01:55.389+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:01:55.391+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:01:55.391+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:01:55.523+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:02:00.662+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:02:00.662+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:02:00.736+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:02:00.736+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:02:00.794+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.419 seconds
+[2023-01-17T14:02:30.959+0000] {processor.py:156} INFO - Started process (PID=16623) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:02:30.961+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:02:30.964+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:02:30.964+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:02:31.067+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:02:31.166+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:02:31.165+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:02:31.230+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:02:31.229+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:02:31.285+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.338 seconds
+[2023-01-17T14:03:01.628+0000] {processor.py:156} INFO - Started process (PID=16656) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:01.630+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:03:01.632+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:01.631+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:01.723+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:01.818+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:01.818+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:03:01.886+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:01.885+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:03:01.935+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.314 seconds
+[2023-01-17T14:03:32.270+0000] {processor.py:156} INFO - Started process (PID=16699) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:32.272+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:03:32.274+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:32.273+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:32.370+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:03:32.473+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:32.473+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:03:32.546+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:03:32.546+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:03:32.599+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.337 seconds
+[2023-01-17T14:04:02.713+0000] {processor.py:156} INFO - Started process (PID=16735) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:02.715+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:04:02.717+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:02.716+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:02.809+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:02.908+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:02.907+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:04:02.971+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:02.971+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:04:03.025+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.320 seconds
+[2023-01-17T14:04:33.211+0000] {processor.py:156} INFO - Started process (PID=16783) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:33.213+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:04:33.215+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:33.215+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:33.308+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:04:33.416+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:33.415+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:04:33.485+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:04:33.484+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:04:33.540+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.338 seconds
+[2023-01-17T14:05:04.075+0000] {processor.py:156} INFO - Started process (PID=16819) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:04.077+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:05:04.079+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:04.079+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:04.185+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:04.324+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:04.323+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:05:04.398+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:04.397+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:05:04.460+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.393 seconds
+[2023-01-17T14:05:35.193+0000] {processor.py:156} INFO - Started process (PID=16867) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:35.195+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:05:35.196+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:35.196+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:35.286+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:05:35.383+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:35.383+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:05:35.458+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:05:35.458+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:05:35.516+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.331 seconds
+[2023-01-17T14:06:05.681+0000] {processor.py:156} INFO - Started process (PID=16915) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:05.683+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:06:05.685+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:05.685+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:05.778+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:10.879+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:10.878+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:06:10.948+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:10.947+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:06:11.008+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 5.335 seconds
+[2023-01-17T14:06:41.477+0000] {processor.py:156} INFO - Started process (PID=16951) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:41.479+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py for tasks to queue
+[2023-01-17T14:06:41.480+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:41.480+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:41.568+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_quarterly_dag']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py
+[2023-01-17T14:06:41.663+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:41.663+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T14:06:41.730+0000] {logging_mixin.py:117} INFO - [2023-01-17T14:06:41.730+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_quarterly_dag to 2023-01-16T00:00:00+00:00, run_after=2023-01-16T00:00:00+00:00
+[2023-01-17T14:06:41.781+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_quarterly_dag.py took 0.310 seconds

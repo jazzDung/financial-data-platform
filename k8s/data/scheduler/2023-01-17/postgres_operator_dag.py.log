@@ -3043,3 +3043,24 @@
 [2023-01-17T13:40:38.547+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:40:38.547+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-01-17T13:40:38.617+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:40:38.616+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_operator_dag_v1 to 2023-01-16T00:00:00+00:00, run_after=2023-01-17T00:00:00+00:00
 [2023-01-17T13:40:38.674+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py took 0.350 seconds
+[2023-01-17T13:41:09.007+0000] {processor.py:156} INFO - Started process (PID=15044) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:09.009+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py for tasks to queue
+[2023-01-17T13:41:09.010+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:09.010+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:09.108+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_operator_dag_v1']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:14.218+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:14.218+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:41:14.296+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:14.296+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_operator_dag_v1 to 2023-01-16T00:00:00+00:00, run_after=2023-01-17T00:00:00+00:00
+[2023-01-17T13:41:14.352+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py took 5.358 seconds
+[2023-01-17T13:41:45.076+0000] {processor.py:156} INFO - Started process (PID=15079) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:45.078+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py for tasks to queue
+[2023-01-17T13:41:45.081+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:45.080+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:45.189+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_operator_dag_v1']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:41:45.287+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:45.287+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:41:45.367+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:41:45.366+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_operator_dag_v1 to 2023-01-16T00:00:00+00:00, run_after=2023-01-17T00:00:00+00:00
+[2023-01-17T13:41:45.433+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py took 0.366 seconds
+[2023-01-17T13:42:16.162+0000] {processor.py:156} INFO - Started process (PID=15119) to work on /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:42:16.165+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py for tasks to queue
+[2023-01-17T13:42:16.167+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:42:16.167+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:42:16.255+0000] {processor.py:768} INFO - DAG(s) dict_keys(['postgres_operator_dag_v1']) retrieved from /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py
+[2023-01-17T13:42:16.372+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:42:16.372+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-01-17T13:42:16.443+0000] {logging_mixin.py:117} INFO - [2023-01-17T13:42:16.442+0000] {dag.py:3328} INFO - Setting next_dagrun for postgres_operator_dag_v1 to 2023-01-16T00:00:00+00:00, run_after=2023-01-17T00:00:00+00:00
+[2023-01-17T13:42:16.496+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/postgres_operator_dag.py took 0.343 seconds
