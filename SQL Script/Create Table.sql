@@ -345,7 +345,22 @@ CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
  
- 
+CREATE TABLE IF NOT EXISTS quarterly_statistics as (
+	SELECT
+		 i.ticker, i.year, i.quarter, i.revenue, i.cost_of_good_sold, i.gross_profit, i.operation_expense, i.operation_income, i.interest_expense, i.pre_tax_profit, i.post_tax_profit, i.ebitda, 
+		b.short_asset, b.long_asset, b.debt, b.equity, b.short_invest, b.short_receivable, b.inventory, b.fixed_asset, b.asset, b.un_distributed_income,
+		c.invest_cost, c.from_invest, c.from_financial, c.from_sale, c.free_cash_flow 
+	FROM income_statement i
+	JOIN balance_sheet b
+		ON i.ticker= b.ticker
+		AND i.year = b.year
+		AND i.quarter = b.quarter
+	JOIN cash_flow c
+		ON i.ticker= c.ticker
+		AND i.year = c.year
+		AND i.quarter = c.quarter
+		);
+ALTER TABLE quarterly_statistics ADD CONSTRAINT quarterly_statistics_pk PRIMARY KEY (ticker, year, quarter);
 
  
  
