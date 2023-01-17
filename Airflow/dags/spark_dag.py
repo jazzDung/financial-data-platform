@@ -8,12 +8,16 @@ import pandas as pd
 from pyspark.sql import Row
     
 default_args = {'owner': 'airflow','start_date': datetime(2023, 1, 1),}
-    
-dag = DAG('spark', description = 'spark_test', catchup = False, schedule_interval = None, default_args = default_args)
 
-spark_job = SparkSubmitOperator(task_id = "spark_job",
-                                application = "spark-app.py",
-                                conn_id = "spark_default",
-                                dag = dag)
-    
-spark_job
+
+with DAG(
+    dag_id='spark',
+    description='spark_test',
+    start_date=datetime(2023, 1, 1),
+    schedule_interval='@daily'
+) as dag:
+
+    spark_job = SparkSubmitOperator(task_id = "spark_job",
+                                    application = "spark-app.py",
+                                    conn_id = "spark_default",
+                                    dag = dag)
