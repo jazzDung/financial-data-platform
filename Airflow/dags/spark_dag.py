@@ -18,6 +18,6 @@ with DAG(
 ) as dag:
 
     spark_job = SparkSubmitOperator(task_id = "spark_job",
-                                    application = "spark-app.py",
+                                    application = "./dags/spark-app.py",
                                     conn_id = "spark_default",
                                     dag = dag)
