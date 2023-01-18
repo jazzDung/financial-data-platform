@@ -1776,7 +1776,7 @@ dags:
     # access mode of the persistent volume
     accessMode: ReadWriteOnce
     ## the name of an existing PVC to use
-    existingClaim:
+    existingClaim: airflow-dags
     ## optional subpath for dag volume mount
     subPath: ~
   gitSync:

@@ -1,0 +1,29 @@
+[2023-01-18T04:17:01.657+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag_v5.first_task scheduled__2023-01-17T00:00:00+00:00 [queued]>
+[2023-01-18T04:17:01.686+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag_v5.first_task scheduled__2023-01-17T00:00:00+00:00 [queued]>
+[2023-01-18T04:17:01.686+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T04:17:01.687+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-01-18T04:17:01.688+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T04:17:01.738+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): first_task> on 2023-01-17 00:00:00+00:00
+[2023-01-18T04:17:01.743+0000] {standard_task_runner.py:54} INFO - Started process 21 to run task
+[2023-01-18T04:17:01.752+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag_v5', 'first_task', 'scheduled__2023-01-17T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpu4m7mr95']
+[2023-01-18T04:17:01.755+0000] {standard_task_runner.py:83} INFO - Job 31: Subtask first_task
+[2023-01-18T04:17:01.758+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/first_dag.py
+[2023-01-18T04:17:02.110+0000] {task_command.py:384} INFO - Running <TaskInstance: first_dag_v5.first_task scheduled__2023-01-17T00:00:00+00:00 [running]> on host firstdagv5firsttask-4b7932dc2fb44ed497f3ae29addd5112
+[2023-01-18T04:17:06.074+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag_v5
+AIRFLOW_CTX_TASK_ID=first_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-17T00:00:00+00:00
+[2023-01-18T04:17:06.077+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-18T04:17:06.079+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo hello world, lmao yeet']
+[2023-01-18T04:17:06.115+0000] {subprocess.py:86} INFO - Output:
+[2023-01-18T04:17:06.122+0000] {subprocess.py:93} INFO - hello world, lmao yeet
+[2023-01-18T04:17:06.123+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-01-18T04:17:06.226+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=first_dag_v5, task_id=first_task, execution_date=20230117T000000, start_date=20230118T041701, end_date=20230118T041706
+[2023-01-18T04:17:06.361+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-01-18T04:17:06.444+0000] {local_task_job.py:273} INFO - 2 downstream tasks scheduled from follow-on schedule check

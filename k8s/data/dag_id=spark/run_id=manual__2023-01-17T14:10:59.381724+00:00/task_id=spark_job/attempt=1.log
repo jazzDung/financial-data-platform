@@ -1,0 +1,35 @@
+[2023-01-17T14:11:59.281+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark.spark_job manual__2023-01-17T14:10:59.381724+00:00 [queued]>
+[2023-01-17T14:11:59.306+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark.spark_job manual__2023-01-17T14:10:59.381724+00:00 [queued]>
+[2023-01-17T14:11:59.307+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T14:11:59.308+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-01-17T14:11:59.309+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T14:11:59.352+0000] {taskinstance.py:1383} INFO - Executing <Task(SparkSubmitOperator): spark_job> on 2023-01-17 14:10:59.381724+00:00
+[2023-01-17T14:11:59.358+0000] {standard_task_runner.py:54} INFO - Started process 22 to run task
+[2023-01-17T14:11:59.366+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark', 'spark_job', 'manual__2023-01-17T14:10:59.381724+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/spark_dag.py', '--cfg-path', '/tmp/tmp3gww1w1a']
+[2023-01-17T14:11:59.368+0000] {standard_task_runner.py:83} INFO - Job 24: Subtask spark_job
+[2023-01-17T14:11:59.371+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/spark_dag.py
+[2023-01-17T14:12:05.030+0000] {task_command.py:384} INFO - Running <TaskInstance: spark.spark_job manual__2023-01-17T14:10:59.381724+00:00 [running]> on host sparksparkjob-76d65f2fa93d40feb3881df2097570b3
+[2023-01-17T14:12:05.292+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=spark
+AIRFLOW_CTX_TASK_ID=spark_job
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-17T14:10:59.381724+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-17T14:10:59.381724+00:00
+[2023-01-17T14:12:05.315+0000] {spark_submit.py:223} INFO - Could not load connection string spark_default, defaulting to yarn
+[2023-01-17T14:12:05.317+0000] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master yarn --name arrow-spark spark-app.py
+[2023-01-17T14:12:05.601+0000] {spark_submit.py:495} INFO - /home/airflow/.local/lib/python3.7/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found
+[2023-01-17T14:12:05.604+0000] {spark_submit.py:495} INFO - JAVA_HOME is not set
+[2023-01-17T14:12:05.635+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 427, in submit
+    f"Cannot execute: {self._mask_cmd(spark_submit_cmd)}. Error code is: {returncode}."
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --name arrow-spark spark-app.py. Error code is: 1.
+[2023-01-17T14:12:05.645+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=spark, task_id=spark_job, execution_date=20230117T141059, start_date=20230117T141159, end_date=20230117T141205
+[2023-01-17T14:12:05.681+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 24 for task spark_job (Cannot execute: spark-submit --master yarn --name arrow-spark spark-app.py. Error code is: 1.; 22)
+[2023-01-17T14:12:05.750+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-01-17T14:12:05.794+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

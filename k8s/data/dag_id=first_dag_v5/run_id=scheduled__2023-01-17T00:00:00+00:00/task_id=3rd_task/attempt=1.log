@@ -1,0 +1,35 @@
+[2023-01-18T04:18:26.120+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag_v5.3rd_task scheduled__2023-01-17T00:00:00+00:00 [queued]>
+[2023-01-18T04:18:26.184+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag_v5.3rd_task scheduled__2023-01-17T00:00:00+00:00 [queued]>
+[2023-01-18T04:18:26.189+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T04:18:26.201+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-01-18T04:18:26.206+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T04:18:26.309+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): 3rd_task> on 2023-01-17 00:00:00+00:00
+[2023-01-18T04:18:26.335+0000] {standard_task_runner.py:54} INFO - Started process 20 to run task
+[2023-01-18T04:18:26.347+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag_v5', '3rd_task', 'scheduled__2023-01-17T00:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp1g36j3xf']
+[2023-01-18T04:18:26.350+0000] {standard_task_runner.py:83} INFO - Job 34: Subtask 3rd_task
+[2023-01-18T04:18:26.354+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/first_dag.py
+[2023-01-18T04:18:26.998+0000] {task_command.py:384} INFO - Running <TaskInstance: first_dag_v5.3rd_task scheduled__2023-01-17T00:00:00+00:00 [running]> on host firstdagv53rdtask-33e7e997df814e478dc55b401d72b04b
+[2023-01-18T04:18:31.870+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag_v5
+AIRFLOW_CTX_TASK_ID=3rd_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-17T00:00:00+00:00
+[2023-01-18T04:18:31.892+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-18T04:18:31.894+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'will run after task1, run with task2']
+[2023-01-18T04:18:31.928+0000] {subprocess.py:86} INFO - Output:
+[2023-01-18T04:18:31.934+0000] {subprocess.py:93} INFO - /bin/bash: line 1: will: command not found
+[2023-01-18T04:18:31.936+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-01-18T04:18:31.976+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-01-18T04:18:32.002+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=first_dag_v5, task_id=3rd_task, execution_date=20230117T000000, start_date=20230118T041826, end_date=20230118T041831
+[2023-01-18T04:18:32.060+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 34 for task 3rd_task (Bash command failed. The command returned a non-zero exit code 127.; 20)
+[2023-01-18T04:18:32.130+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-01-18T04:18:32.210+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
