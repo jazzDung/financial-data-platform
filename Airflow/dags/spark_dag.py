@@ -15,7 +15,7 @@ with DAG(
     dag_id='spark',
     description='spark_test',
     start_date=datetime(2023, 1, 1),
-    schedule_interval='@daily'
+    schedule_interval='@once'
 ) as dag:
     path = os.getcwd()
     name = "spark_app.py"

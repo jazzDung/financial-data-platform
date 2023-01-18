@@ -10,7 +10,7 @@ df = spark.read \
         .format("jdbc") \
         .option("url", "jdbc:postgresql://host.docker.internal:5432/airflow") \
         .option("driver", "org.postgresql.Driver") \
-        .option("dbtable", "industry_financial_health") \
+        .option("dbtable", "newtable") \
         .option("user", "airflow") \
         .option("password", "airflow") \
         .load()

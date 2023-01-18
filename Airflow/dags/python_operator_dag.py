@@ -33,7 +33,7 @@ with DAG(
     description='test dag using python operator',
     start_date=pendulum.yesterday(),
     # start_date=datetime(2022, 12, 6, 23),
-    schedule_interval='@daily'
+    schedule_interval='@once'
 ) as dag:
     task1 = PythonOperator(
         task_id = 'greet',
