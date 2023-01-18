@@ -3,9 +3,8 @@ import os
 from pyspark.sql import SparkSession
 from pyspark.sql import Row
 
-path = os.getcwd()
+path = '/opt/airflow/'
 name = "postgresql-42.5.1.jar"
-
 for root, dirs, files in os.walk(path):
         if name in files:
                 app_path = (os.path.join(root, name))
