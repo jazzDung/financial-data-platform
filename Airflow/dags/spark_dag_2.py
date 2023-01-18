@@ -12,7 +12,7 @@ default_args = {'owner': 'airflow','start_date': datetime(2023, 1, 1),}
 
 
 with DAG(
-    dag_id='spark postgres test',
+    dag_id='spark_postgres_test',
     description='spark_test',
     start_date=datetime(2023, 1, 1),
     schedule_interval='@daily'

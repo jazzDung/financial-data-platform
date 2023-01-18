@@ -1,0 +1,36 @@
+[2023-01-18T13:52:18.745+0000] {processor.py:156} INFO - Started process (PID=30819) to work on /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:18.747+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py for tasks to queue
+[2023-01-18T13:52:18.749+0000] {logging_mixin.py:117} INFO - [2023-01-18T13:52:18.749+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:19.427+0000] {logging_mixin.py:117} INFO - [2023-01-18T13:52:19.419+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py", line 18, in <module>
+    schedule_interval='@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 424, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'spark postgres test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-18T13:52:19.428+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:19.478+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py took 0.740 seconds
+[2023-01-18T13:52:50.163+0000] {processor.py:156} INFO - Started process (PID=30882) to work on /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:50.166+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py for tasks to queue
+[2023-01-18T13:52:50.168+0000] {logging_mixin.py:117} INFO - [2023-01-18T13:52:50.167+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:50.875+0000] {logging_mixin.py:117} INFO - [2023-01-18T13:52:50.870+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py", line 18, in <module>
+    schedule_interval='@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 424, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'spark postgres test' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-01-18T13:52:50.876+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py
+[2023-01-18T13:52:50.926+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/repo/Airflow/dags/spark_dag_2.py took 0.771 seconds
