@@ -3,7 +3,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql import Row
 spark = SparkSession \
         .builder \
-        .config("spark.jars", "tmp/postgresql-42.5.1.jar") \
+        .config("spark.jars", "/tmp/postgresql-42.5.1.jar") \
         .master("local").appName("PySpark_Postgres_test").getOrCreate()
 
 df = spark.read \
