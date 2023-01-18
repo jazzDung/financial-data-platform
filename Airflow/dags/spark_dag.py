@@ -5,6 +5,7 @@ from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOpe
 from pyspark.sql import SparkSession
 from datetime import datetime, date
 import pandas as pd
+import os
 from pyspark.sql import Row
     
 default_args = {'owner': 'airflow','start_date': datetime(2023, 1, 1),}
@@ -16,8 +17,15 @@ with DAG(
     start_date=datetime(2023, 1, 1),
     schedule_interval='@daily'
 ) as dag:
+    path = os.getcwd()
+    name = "spark-app.py"
+    print(path)
+    for root, dirs, files in os.walk(path):
+        if name in files:
+            app_path = (os.path.join(root, name))
+            break
 
     spark_job = SparkSubmitOperator(task_id = "spark_job",
-                                    application = "./dags/spark-app.py",
+                                    application = app_path,
                                     conn_id = "spark_default",
                                     dag = dag)
