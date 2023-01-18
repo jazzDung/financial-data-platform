@@ -1,0 +1,94 @@
+[2023-01-18T10:41:04.165+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark.spark_job manual__2023-01-18T10:40:18.988907+00:00 [queued]>
+[2023-01-18T10:41:04.188+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: spark.spark_job manual__2023-01-18T10:40:18.988907+00:00 [queued]>
+[2023-01-18T10:41:04.189+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T10:41:04.190+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-01-18T10:41:04.190+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-18T10:41:04.226+0000] {taskinstance.py:1383} INFO - Executing <Task(SparkSubmitOperator): spark_job> on 2023-01-18 10:40:18.988907+00:00
+[2023-01-18T10:41:04.233+0000] {standard_task_runner.py:54} INFO - Started process 21 to run task
+[2023-01-18T10:41:04.240+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark', 'spark_job', 'manual__2023-01-18T10:40:18.988907+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/spark_dag.py', '--cfg-path', '/tmp/tmph13at8rb']
+[2023-01-18T10:41:04.243+0000] {standard_task_runner.py:83} INFO - Job 62: Subtask spark_job
+[2023-01-18T10:41:04.245+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/repo/Airflow/dags/spark_dag.py
+[2023-01-18T10:41:09.951+0000] {logging_mixin.py:117} INFO - /opt/airflow
+[2023-01-18T10:41:10.172+0000] {task_command.py:384} INFO - Running <TaskInstance: spark.spark_job manual__2023-01-18T10:40:18.988907+00:00 [running]> on host sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59
+[2023-01-18T10:41:10.453+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=spark
+AIRFLOW_CTX_TASK_ID=spark_job
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-18T10:40:18.988907+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-18T10:40:18.988907+00:00
+[2023-01-18T10:41:10.482+0000] {base.py:71} INFO - Using connection ID 'spark_default' for task execution.
+[2023-01-18T10:41:10.484+0000] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://10.96.144.83:7077 --name arrow-spark /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py
+[2023-01-18T10:41:10.766+0000] {spark_submit.py:495} INFO - /home/airflow/.local/lib/python3.7/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found
+[2023-01-18T10:41:17.521+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO SparkContext: Running Spark version 3.3.1
+[2023-01-18T10:41:17.683+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-01-18T10:41:17.869+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceUtils: ==============================================================
+[2023-01-18T10:41:17.870+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2023-01-18T10:41:17.871+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceUtils: ==============================================================
+[2023-01-18T10:41:17.872+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO SparkContext: Submitted application: First App
+[2023-01-18T10:41:17.917+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2023-01-18T10:41:17.946+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceProfile: Limiting resource is cpu
+[2023-01-18T10:41:17.948+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:17 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2023-01-18T10:41:18.073+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SecurityManager: Changing view acls to: airflow
+[2023-01-18T10:41:18.074+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SecurityManager: Changing modify acls to: airflow
+[2023-01-18T10:41:18.076+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SecurityManager: Changing view acls groups to:
+[2023-01-18T10:41:18.077+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SecurityManager: Changing modify acls groups to:
+[2023-01-18T10:41:18.078+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(airflow); groups with view permissions: Set(); users  with modify permissions: Set(airflow); groups with modify permissions: Set()
+[2023-01-18T10:41:18.665+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO Utils: Successfully started service 'sparkDriver' on port 38309.
+[2023-01-18T10:41:18.752+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SparkEnv: Registering MapOutputTracker
+[2023-01-18T10:41:18.836+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SparkEnv: Registering BlockManagerMaster
+[2023-01-18T10:41:18.876+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2023-01-18T10:41:18.878+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2023-01-18T10:41:18.889+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2023-01-18T10:41:18.936+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-e73a8d3a-ddbe-4ea5-894c-0f090990dc20
+[2023-01-18T10:41:18.976+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:18 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2023-01-18T10:41:19.017+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO SparkEnv: Registering OutputCommitCoordinator
+[2023-01-18T10:41:19.557+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2023-01-18T10:41:19.787+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO Executor: Starting executor ID driver on host sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59
+[2023-01-18T10:41:19.805+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2023-01-18T10:41:19.852+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35181.
+[2023-01-18T10:41:19.853+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO NettyBlockTransferService: Server created on sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59:35181
+[2023-01-18T10:41:19.856+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2023-01-18T10:41:19.869+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59, 35181, None)
+[2023-01-18T10:41:19.877+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO BlockManagerMasterEndpoint: Registering block manager sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59:35181 with 413.9 MiB RAM, BlockManagerId(driver, sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59, 35181, None)
+[2023-01-18T10:41:19.883+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59, 35181, None)
+[2023-01-18T10:41:19.885+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:19 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59, 35181, None)
+[2023-01-18T10:41:21.257+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO SparkContext: Starting job: collect at /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py:12
+[2023-01-18T10:41:21.296+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Got job 0 (collect at /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py:12) with 1 output partitions
+[2023-01-18T10:41:21.297+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Final stage: ResultStage 0 (collect at /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py:12)
+[2023-01-18T10:41:21.298+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Parents of final stage: List()
+[2023-01-18T10:41:21.303+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Missing parents: List()
+[2023-01-18T10:41:21.314+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Submitting ResultStage 0 (ParallelCollectionRDD[0] at readRDDFromFile at PythonRDD.scala:274), which has no missing parents
+[2023-01-18T10:41:21.547+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 2.9 KiB, free 413.9 MiB)
+[2023-01-18T10:41:21.611+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1757.0 B, free 413.9 MiB)
+[2023-01-18T10:41:21.617+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59:35181 (size: 1757.0 B, free: 413.9 MiB)
+[2023-01-18T10:41:21.625+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1513
+[2023-01-18T10:41:21.661+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (ParallelCollectionRDD[0] at readRDDFromFile at PythonRDD.scala:274) (first 15 tasks are for partitions Vector(0))
+[2023-01-18T10:41:21.663+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2023-01-18T10:41:21.813+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59, executor driver, partition 0, PROCESS_LOCAL, 4595 bytes) taskResourceAssignments Map()
+[2023-01-18T10:41:21.845+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2023-01-18T10:41:21.970+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1004 bytes result sent to driver
+[2023-01-18T10:41:21.987+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 228 ms on sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59 (executor driver) (1/1)
+[2023-01-18T10:41:21.992+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:21 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2023-01-18T10:41:22.006+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO DAGScheduler: ResultStage 0 (collect at /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py:12) finished in 0.637 s
+[2023-01-18T10:41:22.015+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2023-01-18T10:41:22.016+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2023-01-18T10:41:22.020+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO DAGScheduler: Job 0 finished: collect at /opt/airflow/dags/d69907b3e6a7e64fe88694c603553eaba4036b8c/Airflow/dags/spark-app.py:12, took 0.762792 s
+[2023-01-18T10:41:22.057+0000] {spark_submit.py:495} INFO - [{'Category': 'A', 'ID': 1, 'Value': 121.44, 'Truth': True}, {'Category': 'B', 'ID': 2, 'Value': 300.01, 'Truth': False}, {'Category': 'C', 'ID': 3, 'Value': 10.99, 'Truth': None}, {'Category': 'E', 'ID': 4, 'Value': 33.87, 'Truth': True}]
+[2023-01-18T10:41:22.137+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO SparkContext: Invoking stop() from shutdown hook
+[2023-01-18T10:41:22.161+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO SparkUI: Stopped Spark web UI at http://sparksparkjob-d9c56aa97b244e7ab18bb18c2d681c59:4040
+[2023-01-18T10:41:22.206+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2023-01-18T10:41:22.233+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO MemoryStore: MemoryStore cleared
+[2023-01-18T10:41:22.234+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO BlockManager: BlockManager stopped
+[2023-01-18T10:41:22.252+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2023-01-18T10:41:22.258+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2023-01-18T10:41:22.269+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO SparkContext: Successfully stopped SparkContext
+[2023-01-18T10:41:22.271+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO ShutdownHookManager: Shutdown hook called
+[2023-01-18T10:41:22.272+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO ShutdownHookManager: Deleting directory /tmp/spark-99fe8423-604f-4477-a5fb-e6d56dab25c2
+[2023-01-18T10:41:22.280+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO ShutdownHookManager: Deleting directory /tmp/spark-ba7939cd-448b-4b1a-bc6e-372aa8c1ae81
+[2023-01-18T10:41:22.288+0000] {spark_submit.py:495} INFO - 23/01/18 10:41:22 INFO ShutdownHookManager: Deleting directory /tmp/spark-ba7939cd-448b-4b1a-bc6e-372aa8c1ae81/pyspark-399db641-bc9e-41b1-82df-cc0809a489bb
+[2023-01-18T10:41:22.450+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=spark, task_id=spark_job, execution_date=20230118T104018, start_date=20230118T104104, end_date=20230118T104122
+[2023-01-18T10:41:22.563+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-01-18T10:41:22.609+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

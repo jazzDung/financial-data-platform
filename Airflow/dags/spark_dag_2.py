@@ -12,13 +12,13 @@ default_args = {'owner': 'airflow','start_date': datetime(2023, 1, 1),}
 
 
 with DAG(
-    dag_id='spark',
+    dag_id='spark postgres test',
     description='spark_test',
     start_date=datetime(2023, 1, 1),
     schedule_interval='@daily'
 ) as dag:
     path = os.getcwd()
-    name = "spark_app.py"
+    name = "spark_app_2.py"
     print(path)
     for root, dirs, files in os.walk(path):
         if name in files:
@@ -29,3 +29,4 @@ with DAG(
                                     application = app_path,
                                     conn_id = "spark_default",
                                     dag = dag)
+    
