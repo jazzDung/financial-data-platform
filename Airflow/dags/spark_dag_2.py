@@ -32,8 +32,6 @@ with DAG(
     spark_job = SparkSubmitOperator(task_id = "spark_job",
                                     application = app_path,
                                     conn_id = "spark_default",
-                                    # env_vars = {"driver-class-path":"/tmp/postgresql-42.5.1.jar","jars":"/tmp/postgresql-42.5.1.jar",},
                                     jars = driver_path,
-                                    # packages = org.postgresql:postgresql,
                                     dag = dag)
     
