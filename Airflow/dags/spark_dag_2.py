@@ -17,19 +17,23 @@ with DAG(
     start_date=datetime(2023, 1, 1),
     schedule_interval='@once'
 ) as dag:
+    
     path = os.getcwd()
-    name = "spark_app_2.py"
+    app_name = "spark_app_2.py"
+    driver_name = "postgresql-42.5.1.jar"
     print(path)
     for root, dirs, files in os.walk(path):
-        if name in files:
-            app_path = (os.path.join(root, name))
-            driver_path = (os.path.join(root, "postgresql-42.5.1.jar"))
-            break
+        if app_name in files:
+            app_path = (os.path.join(root, app_name))
+        if driver_name in files:
+            driver_path = (os.path.join(root, driver_name))
+        
     print(driver_path)
     spark_job = SparkSubmitOperator(task_id = "spark_job",
                                     application = app_path,
                                     conn_id = "spark_default",
-                                    env_vars = {"driver-class-path":"/tmp/postgresql-42.5.1.jar","jars":"/tmp/postgresql-42.5.1.jar",},
-                                    jars=driver_path,
+                                    # env_vars = {"driver-class-path":"/tmp/postgresql-42.5.1.jar","jars":"/tmp/postgresql-42.5.1.jar",},
+                                    jars = driver_path,
+                                    # packages = org.postgresql:postgresql,
                                     dag = dag)
     
