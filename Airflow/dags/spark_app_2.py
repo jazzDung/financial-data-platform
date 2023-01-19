@@ -11,6 +11,7 @@ from pyspark.sql import Row
 #                 break
 spark = SparkSession \
         .builder \
+        .config("spark.jars", "/tmp/postgresql-42.5.1.jar") \
         .config("spark.executor.extraClassPath", "/tmp/postgresql-42.5.1.jar") \
         .master("local").appName("PySpark_Postgres_test").getOrCreate()
 
