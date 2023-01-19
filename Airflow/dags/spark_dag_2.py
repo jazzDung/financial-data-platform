@@ -23,11 +23,13 @@ with DAG(
     for root, dirs, files in os.walk(path):
         if name in files:
             app_path = (os.path.join(root, name))
+            driver_path = (os.path.join(root, "postgresql-42.5.1.jar"))
             break
 
     spark_job = SparkSubmitOperator(task_id = "spark_job",
                                     application = app_path,
                                     conn_id = "spark_default",
-                                    env_vars = {"driver-class-path":"/tmp/postgresql-42.5.1.jar","jars":"/tmp/postgresql-42.5.1.jar"},
+                                    env_vars = {"driver-class-path":"/tmp/postgresql-42.5.1.jar","jars":"/tmp/postgresql-42.5.1.jar",},
+                                    jars=driver_path,
                                     dag = dag)
     
