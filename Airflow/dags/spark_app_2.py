@@ -3,15 +3,14 @@ import os
 from pyspark.sql import SparkSession
 from pyspark.sql import Row
 
-path = '/opt/airflow/'
-name = "postgresql-42.5.1.jar"
-for root, dirs, files in os.walk(path):
-        if name in files:
-                app_path = (os.path.join(root, name))
-                break
+# path = '/opt/airflow/'
+# name = "postgresql-42.5.1.jar"
+# for root, dirs, files in os.walk(path):
+#         if name in files:
+#                 app_path = (os.path.join(root, name))
+#                 break
 spark = SparkSession \
         .builder \
-        .config("spark.jars", app_path) \
         .master("local").appName("PySpark_Postgres_test").getOrCreate()
 
 df = spark.read \
