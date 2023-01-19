@@ -9,14 +9,16 @@ from pyspark.sql import Row
 #         if name in files:
 #                 app_path = (os.path.join(root, name))
 #                 break
+# spark = SparkSession \
+#         .builder \
+#         .config("spark.jars", "/tmp/postgresql-42.5.1.jar") \
+#         .config("spark.jars.packages", "org.postgresql:postgresql") \
+#         .config("spark.driver.extraClassPath", "/tmp/postgresql-42.5.1.jar") \
+#         .config("spark.executor.extraClassPath", "/tmp/postgresql-42.5.1.jar") \
+#         .master("local").appName("PySpark_Postgres_test").getOrCreate()
 spark = SparkSession \
         .builder \
-        .config("spark.jars", "/tmp/postgresql-42.5.1.jar") \
-        .config("spark.jars.packages", "org.postgresql:postgresql") \
-        .config("spark.driver.extraClassPath", "/tmp/postgresql-42.5.1.jar") \
-        .config("spark.executor.extraClassPath", "/tmp/postgresql-42.5.1.jar") \
         .master("local").appName("PySpark_Postgres_test").getOrCreate()
-
 df = spark.read \
         .format("jdbc") \
         .option("url", "jdbc:postgresql://host.docker.internal:5432/airflow") \

@@ -25,7 +25,7 @@ with DAG(
             app_path = (os.path.join(root, name))
             driver_path = (os.path.join(root, "postgresql-42.5.1.jar"))
             break
-
+    print(driver_path)
     spark_job = SparkSubmitOperator(task_id = "spark_job",
                                     application = app_path,
                                     conn_id = "spark_default",
