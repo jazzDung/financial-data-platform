@@ -6,9 +6,40 @@
 --drop table if exists financial_ratio cascade;
 --drop table if exists stock_intraday_transaction cascade;
 
+--drop table if exists general_rating cascade;
+--drop table if exists business_model_rating cascade;
+--drop table if exists business_operation_rating cascade;
+--drop table if exists financial_health_rating cascade;
+--drop table if exists valuation_rating cascade;
+--drop table if exists industry_financial_health cascade;
+
+--TRUNCATE table listing_companies cascade;
+--TRUNCATE table stock_history cascade;
+--TRUNCATE table income_statement cascade;
+--TRUNCATE table balance_sheet cascade;
+--TRUNCATE table cash_flow cascade;
+--TRUNCATE table financial_ratio cascade;
+--TRUNCATE table stock_intraday_transaction cascade;
+
+--TRUNCATE table general_rating cascade;
+--TRUNCATE table business_model_rating cascade;
+--TRUNCATE table business_operation_rating cascade;
+--TRUNCATE table financial_health_rating cascade;
+--TRUNCATE table valuation_rating cascade;
+--TRUNCATE table industry_financial_health cascade;
+
+-- ALTER TABLE general_rating ADD CONSTRAINT fk_listing_companies_general_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_model_rating ADD CONSTRAINT fk_listing_companies_business_model_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE business_operation_rating ADD CONSTRAINT fk_listing_companies_business_operation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE financial_health_rating ADD CONSTRAINT fk_listing_companies_financial_health_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE valuation_rating ADD CONSTRAINT fk_listing_companies_valuation_rating FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+-- ALTER TABLE industry_financial_health ADD CONSTRAINT fk_listing_companies_industry_financial_health FOREIGN KEY (ticker) REFERENCES listing_companies (ticker);
+
+
+
 CREATE TABLE IF NOT EXISTS listing_companies (
-	id serial,
- 	ticker varchar(8) unique,
+ 	id serial,
+ 	ticker varchar(3) unique,
  	exchange varchar(5),
  	short_name varchar(256),
  	industry_id double precision,
@@ -31,9 +62,10 @@ CREATE TABLE IF NOT EXISTS listing_companies (
  );
  
  
+ 
 CREATE TABLE IF NOT EXISTS stock_history (
  	ticker varchar(3),
- 	time_stamp timestamp not null,
+ 	time_stamp timestamp,
  	open double precision,
  	high double precision,
  	low double precision,
@@ -42,6 +74,7 @@ CREATE TABLE IF NOT EXISTS stock_history (
  	PRIMARY KEY (ticker, time_stamp),
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
+
  
  
 CREATE TABLE IF NOT EXISTS income_statement (
@@ -53,8 +86,8 @@ CREATE TABLE IF NOT EXISTS income_statement (
  	quarter_revenue_growth double precision,
  	cost_of_good_sold double precision,
  	gross_profit double precision,
- 	operation_expense integer,
- 	operation_profit integer,
+ 	operation_expense double precision,
+ 	operation_profit double precision,
  	year_operation_profit_growth double precision,
  	quarter_operation_profit_growth double precision,
  	interest_expense double precision,
@@ -84,9 +117,9 @@ CREATE TABLE IF NOT EXISTS balance_sheet (
  	short_receivable double precision,
  	inventory double precision,
  	long_asset double precision,
- 	fixed_asset integer,
+ 	fixed_asset double precision,
  	asset integer,
- 	debt integer,
+ 	debt double precision,
  	short_debt double precision,
  	long_debt double precision,
  	equity integer,
@@ -107,11 +140,11 @@ CREATE TABLE IF NOT EXISTS balance_sheet (
  	payable_interest double precision,
  	receivable_interest double precision,
  	deposit double precision,
- 	other_debt integer,
+ 	other_debt double precision,
  	fund double precision,
  	un_distributed_income double precision,
  	minor_share_holder_profit double precision,
- 	payable integer,
+ 	payable double precision,
  	PRIMARY KEY (ticker, year, quarter),
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
@@ -145,7 +178,7 @@ CREATE TABLE IF NOT EXISTS financial_ratio (
  	days_inventory double precision,
  	days_payable double precision,
  	ebit_on_interest double precision,
- 	earning_per_share integer,
+ 	earning_per_share double precision,
  	book_value_per_share double precision,
  	interest_margin double precision,
  	non_interest_on_toi double precision,
@@ -196,6 +229,7 @@ CREATE TABLE IF NOT EXISTS financial_ratio (
  );
  
  
+ 
 CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
  	id serial,
  	price double precision,
@@ -207,15 +241,15 @@ CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
  	sa double precision,
  	hl varchar(256),
  	pcp double precision,
- 	time_stamp timestamp not null,
+	time_stamp timestamp,
  	ticker varchar(3),
- 	primary key (id, time_stamp),
+ 	PRIMARY KEY (id, time_stamp),
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
  
  
 CREATE TABLE IF NOT EXISTS general_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	stock_rating double precision,
  	valuation double precision,
  	financial_health double precision,
@@ -235,7 +269,7 @@ CREATE TABLE IF NOT EXISTS general_rating (
  
  
 CREATE TABLE IF NOT EXISTS business_model_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	business_model double precision,
  	business_efficiency double precision,
  	asset_quality double precision,
@@ -253,7 +287,7 @@ CREATE TABLE IF NOT EXISTS business_model_rating (
  
  
 CREATE TABLE IF NOT EXISTS business_operation_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	loan_growth double precision,
  	deposit_growth double precision,
@@ -279,7 +313,7 @@ CREATE TABLE IF NOT EXISTS business_operation_rating (
  
  
 CREATE TABLE IF NOT EXISTS financial_health_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	loan_deposit double precision,
  	bad_loan_gross_loan double precision,
@@ -297,7 +331,7 @@ CREATE TABLE IF NOT EXISTS financial_health_rating (
  
  
 CREATE TABLE IF NOT EXISTS valuation_rating (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en varchar(256),
  	valuation double precision,
  	pe double precision,
@@ -311,7 +345,7 @@ CREATE TABLE IF NOT EXISTS valuation_rating (
  
  
 CREATE TABLE IF NOT EXISTS industry_financial_health (
- 	ticker varchar(8),
+ 	ticker varchar(3),
  	industry_en double precision,
  	loan_deposit double precision,
  	bad_loan_gross_loan double precision,
@@ -327,40 +361,9 @@ CREATE TABLE IF NOT EXISTS industry_financial_health (
  	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
  );
  
- 
-CREATE TABLE IF NOT EXISTS stock_intraday_transaction (
- 	index integer,
- 	price double precision,
- 	volume integer,
- 	cp double precision,
- 	rcp double precision,
- 	a varchar(2),
- 	ba double precision,
- 	sa double precision,
- 	hl varchar(256),
- 	pcp double precision,
- 	time_stamp varchar(19),
- 	ticker varchar(3),
- 	PRIMARY KEY (index, price, volume),
- 	FOREIGN KEY (ticker) REFERENCES listing_companies (ticker)
- );
- 
-CREATE TABLE IF NOT EXISTS quarterly_statistics as (
-	SELECT
-		 i.ticker, i.year, i.quarter, i.revenue, i.cost_of_good_sold, i.gross_profit, i.operation_expense, i.operation_income, i.interest_expense, i.pre_tax_profit, i.post_tax_profit, i.ebitda, 
-		b.short_asset, b.long_asset, b.debt, b.equity, b.short_invest, b.short_receivable, b.inventory, b.fixed_asset, b.asset, b.un_distributed_income,
-		c.invest_cost, c.from_invest, c.from_financial, c.from_sale, c.free_cash_flow 
-	FROM income_statement i
-	JOIN balance_sheet b
-		ON i.ticker= b.ticker
-		AND i.year = b.year
-		AND i.quarter = b.quarter
-	JOIN cash_flow c
-		ON i.ticker= c.ticker
-		AND i.year = c.year
-		AND i.quarter = c.quarter
-		);
-ALTER TABLE quarterly_statistics ADD CONSTRAINT quarterly_statistics_pk PRIMARY KEY (ticker, year, quarter);
 
- 
- 
+
+
+
+
+
